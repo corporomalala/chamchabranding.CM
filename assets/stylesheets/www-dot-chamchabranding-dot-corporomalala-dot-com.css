@@ -88,6 +88,7 @@ Written for -- www.chamcha-branding.corporomalala.com
 	/*** BETAs ***/
 		
 	/*** TO DELETE ***/
-		label:after { display: none; }
+		label:after,
+		a:after { display: none; }
 	/*** TO DELETE ***/
 		/*===END CUSTOM===*/
