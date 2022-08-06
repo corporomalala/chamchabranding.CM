@@ -39,10 +39,12 @@ Written for -- www.chamcha-branding.corporomalala.com
 		
 	/*** MEDIA ***/
 		.header-content a { background-image: url("../../assets/images/icon_email_black.png"); background-size: 70%; }
-		.footer-cta-button:after { background-image: url("../../assets/images/icon_hand_white.png"); background-size: cover; }
+		
+		.footer-cta-button:after { background-image: url("../../assets/images/icon_email_white.png"); background-size: cover; }
 		.footer-cta:hover .footer-cta-button:after,
 		.footer-cta:active .footer-cta-button:after,
-		.footer-cta:focus .footer-cta-button:after { background-image: url("../../assets/images/icon_hand_orange.png"); background-size: cover; }
+		.footer-cta:focus .footer-cta-button:after { background-image: url("../../assets/images/icon_email_orange.png"); background-size: cover; }
+		
 		.services-content-details-box-pricing-once:after { background-image: url("../../assets/images/icon_hand_black.png"); background-size: cover; }
 		
 		.footer-cta-button:after,
@@ -54,7 +56,7 @@ Written for -- www.chamcha-branding.corporomalala.com
 	/*** END UTILITIES ***/
 		
 	/*** MIXINS ***/
-		
+		 
 	/*** END MIXINS ***/
 		
 	/*** COMMONS ***/
@@ -88,7 +90,6 @@ Written for -- www.chamcha-branding.corporomalala.com
 	/*** BETAs ***/
 		
 	/*** TO DELETE ***/
-		label:after,
-		a:after { display: none; }
+		label:after { display: none; }
 	/*** TO DELETE ***/
 		/*===END CUSTOM===*/
