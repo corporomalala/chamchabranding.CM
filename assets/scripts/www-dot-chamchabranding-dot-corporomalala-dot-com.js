@@ -1,7 +1,7 @@
 /*===
-Into Binary (https://chamcha-branding.corporomalala.com)
+Into Binary (https://chamchabranding.corporomalala.com)
 &copy Coryright 2022 Into Binary. All rights reserved.
-Written for -- www.chamcha-branding.corporomalala.com
+Written for -- www.chamchabranding.corporomalala.com
 ===*/
 
 /*=== LIBRARIES ===*/

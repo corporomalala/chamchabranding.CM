@@ -1,7 +1,7 @@
 /*===
-Into Binary (https://chamcha-branding.corporomalala.com)
+Into Binary (https://chamchabranding.corporomalala.com)
 &copy Coryright 2022 Into Binary. All rights reserved.
-Written for -- www.chamcha-branding.corporomalala.com
+Written for -- www.chamchabranding.corporomalala.com
 ===*/
 
 
@@ -19,14 +19,7 @@ Written for -- www.chamcha-branding.corporomalala.com
 	/*** END CANCEL ***/
 		
 	/*** Z-INDEXES ***/
-		.d-wrapEntry,.services-header-description:before{position:relative;z-index:10;}
-		.header,.banner,.services-header-description:after{position:relative;z-index:20;}
-		.services-header-description-p{position:relative;z-index:30;}
-		.services-content-nav-button,
-		.services-header-portfolio-figure{position:relative;z-index:40;}
-		.services-content-details-box-title,.services-content-details-box-description-p{position:relative;z-index:50;}
-		.menu{position:relative;z-index:60;}
-		.CM-badge{position:relative;z-index:70;}
+		.d-wrapEntry,.services-header-description:before{position:relative;z-index:10;}.header,.banner,.services-header-description:after{position:relative;z-index:20;}.services-header-description-p{position:relative;z-index:30;}.services-content-nav-button, .services-header-portfolio-figure{position:relative;z-index:40;}.services-content-details-box-title,.services-content-details-box-description-p{position:relative;z-index:50;}.menu{position:relative;z-index:60;}.CM-badge{position:relative;z-index:70;}
 	/*** END Z-INDEXES ***/
 		
 	/*** COLORS ***/
@@ -38,17 +31,7 @@ Written for -- www.chamcha-branding.corporomalala.com
 	/*** END FONTS ***/
 		
 	/*** MEDIA ***/
-		.header-content a { background-image: url("../../assets/images/icon_email_black.png"); background-size: 70%; }
-		
-		.footer-cta-button:after { background-image: url("../../assets/images/icon_email_white.png"); background-size: cover; }
-		.footer-cta:hover .footer-cta-button:after,
-		.footer-cta:active .footer-cta-button:after,
-		.footer-cta:focus .footer-cta-button:after { background-image: url("../../assets/images/icon_email_orange.png"); background-size: cover; }
-		
-		.services-content-details-box-pricing-once:after { background-image: url("../../assets/images/icon_hand_black.png"); background-size: cover; }
-		
-		.footer-cta-button:after,
-		.header-content a, .services-content-details-box-pricing-once:after { background-repeat: no-repeat; background-position: center; }
+		.header-content a{background-image:url("../../assets/images/icon_email_black.png");background-size:70%;}.footer-cta-button:after{background-image:url("../../assets/images/icon_email_white.png");background-size:cover;}.footer-cta:hover .footer-cta-button:after, .footer-cta:active .footer-cta-button:after, .footer-cta:focus .footer-cta-button:after{background-image:url("../../assets/images/icon_email_orange.png");background-size:cover;}.services-content-details-box-pricing-once:after{background-image:url("../../assets/images/icon_hand_black.png");background-size:cover;}.footer-cta-button:after, .header-content a, .services-content-details-box-pricing-once:after{background-repeat:no-repeat;background-position:center;}
 	/*** END MEDIA ***/
 		
 	/*** UTILITIES ***/
@@ -56,7 +39,7 @@ Written for -- www.chamcha-branding.corporomalala.com
 	/*** END UTILITIES ***/
 		
 	/*** MIXINS ***/
-		 
+		
 	/*** END MIXINS ***/
 		
 	/*** COMMONS ***/
@@ -72,9 +55,7 @@ Written for -- www.chamcha-branding.corporomalala.com
 	/*** END INTERACTIVITY ***/
 		
 	/*** MEDIA QUERIES ***/
-		@media screen and (max-width:900px){}
-		@media screen and (max-width:50em){html, body{font-size:14px;}.services-content-nav-list{display:flex;}.services-content-details-list-item{flex:1;}.banner-testimonial-quote-q{text-align:right;}.CM-badge{padding:.5em;text-align:center;}.banner-cta{width:75%;}.banner-figure-placeholder{padding:1em;}.banner-figure-wrap{display:none;}.contact-header-email{padding:2.5em 0;}.contact-header-email p{padding:0 1em;}.footer-copyrights-p{text-align:center;}.footer-quote{padding-bottom:2em;}.footer-quote-details{padding:1.5em 0 .5em 0;}.services{padding:3em 0;}.services-content-details-box-title{padding:1em 1em 1em .5em;}.services-content-details-box-description-p{padding:0 1em 1em 1em;}.services-content-details-box-pricing{padding:0 .75em;}.services-content-nav{position:relative;left:35%;width:65%;overflow:auto;}.services-content-nav-list{width:400%;}.services-content-nav-list-item{}.services-header{//width:80vw;}.services-header-title,.services-header-description{left:35%;width:65%;}.services-header-title{padding:0 .5em .25em 0;}.services-header-description{min-height:17em;}.services-header-description-wrap{max-height:25em;overflow:scroll;}.services-header-portfolio{width:35%;}}
-		@media screen and (min-width:50em){html, body{font-size:16px;}.contact,.footer,.services-content{display:flex;}.contact{align-items:flex-start;}.footer{align-items:flex-end;}.contact-header,.contact-form,.footer-cta,.footer-quote,.services-content-details,.services-content-nav,.services-header-description,.services-header-portfolio{flex:1;}.CM-badge{position:absolute;top:0;right:0;width:10%;padding:1em;}.d-wrapCenter{width:80%;margin:0 auto;}.contact,.footer,.services-content{direction:rtl;}.contact-header,.contact-form,.footer-cta,.footer-quote,.services-content-nav,.services-content-details{direction:ltr;}.banner-cta{position:relative;width:40%;}.banner-cta:before{content:"";position:absolute;top:0;right:100%;width:100%;height:100%;}.banner-figure{width:50%;position:relative;left:50%;}.banner-figure-placeholder{visibility:hidden;}.banner-figure-wrap{position:absolute;top:0;left:0;width:100%;height:40em;}.banner-figure-wrap-img{position:sticky;top:0;left:0;}.banner-testimonial{position:relative;width:50%;}.banner-testimonial-quote{position:absolute;bottom:0;padding:0 3em 3em 0;}.contact{position:relative;// top:-3em;}.contact-header-email{padding:3em 1em;}.contact-form-fieldset{position:relative;}.contact-form-fieldset:before{content:"";position:absolute;top:0;left:-100%;width:100%;height:100%;}.footer-cta{position:relative;top:6em;}.footer-cta-wrap{width:90%;margin-bottom:1em;}.footer-copyrights-wrap{position:relative;left:50%;width:50%;}.footer-copyrights-p{text-align:right;}.services{padding:1em 1em 0 1em;}.services-content-details-box{padding:1em;}.services-content-details-box-description{//padding:3em 0;}.services-content-details-box-description-p{padding:.5em 0;}.services-content-details-box-title{padding:1em 0;}.services-content-nav-list{position:relative;top:-7em;padding:.5em;overflow:auto;}.services-content-nav-list-item{width:50%;float:left;}.services-header{padding-top:15em;}.services-header-title,.services-header-description{left:50%;width:50%;}.services-header-description{min-height:20.5em;padding-left:1em;padding-bottom:7em;}.services-header-description-wrap{max-height:13em;overflow:scroll;}.services-header-portfolio{width:50%;margin-left:.5em;}.services-header-portfolio-figure{width:50%;}.services-header-portfolio-figure:nth-child(2){position:absolute;right:0;top:25%;}}
+		@media screen and (max-width:900px){}@media screen and (max-width:50em){html, body{font-size:14px;}.services-content-nav-list{display:flex;}.services-content-details-list-item{flex:1;}.banner-testimonial-quote-q{text-align:right;}.CM-badge{padding:.5em;text-align:center;}.banner-cta{width:75%;}.banner-figure-placeholder{padding:1em;}.banner-figure-wrap{display:none;}.contact-header-email{padding:2.5em 0;}.contact-header-email p{padding:0 1em;}.footer-copyrights-p{text-align:center;}.footer-quote{padding-bottom:2em;}.footer-quote-details{padding:1.5em 0 .5em 0;}.services{padding:3em 0;}.services-content-details-box-title{padding:1em 1em 1em .5em;}.services-content-details-box-description-p{padding:0 1em 1em 1em;}.services-content-details-box-pricing{padding:0 .75em;}.services-content-nav{position:relative;left:35%;width:65%;overflow:auto;}.services-content-nav-list{width:400%;}.services-content-nav-list-item{}.services-header{//width:80vw;}.services-header-title,.services-header-description{left:35%;width:65%;}.services-header-title{padding:0 .5em .25em 0;}.services-header-description{min-height:17em;}.services-header-description-wrap{max-height:25em;overflow:scroll;}.services-header-portfolio{width:35%;}}@media screen and (min-width:50em){html, body{font-size:16px;}.contact,.footer,.services-content{display:flex;}.contact{align-items:flex-start;}.footer{align-items:flex-end;}.contact-header,.contact-form,.footer-cta,.footer-quote,.services-content-details,.services-content-nav,.services-header-description,.services-header-portfolio{flex:1;}.CM-badge{position:absolute;top:0;right:0;width:10%;padding:1em;}.d-wrapCenter{width:80%;margin:0 auto;}.contact,.footer,.services-content{direction:rtl;}.contact-header,.contact-form,.footer-cta,.footer-quote,.services-content-nav,.services-content-details{direction:ltr;}.banner-cta{position:relative;width:40%;}.banner-cta:before{content:"";position:absolute;top:0;right:100%;width:100%;height:100%;}.banner-figure{width:50%;position:relative;left:50%;}.banner-figure-placeholder{visibility:hidden;}.banner-figure-wrap{position:absolute;top:0;left:0;width:100%;height:40em;}.banner-figure-wrap-img{position:sticky;top:0;left:0;}.banner-testimonial{position:relative;width:50%;}.banner-testimonial-quote{position:absolute;bottom:0;padding:0 3em 3em 0;}.contact{position:relative;// top:-3em;}.contact-header-email{padding:3em 1em;}.contact-form-fieldset{position:relative;}.contact-form-fieldset:before{content:"";position:absolute;top:0;left:-100%;width:100%;height:100%;}.footer-cta{position:relative;top:6em;}.footer-cta-wrap{width:90%;margin-bottom:1em;}.footer-copyrights-wrap{position:relative;left:50%;width:50%;}.footer-copyrights-p{text-align:right;}.services{padding:1em 1em 0 1em;}.services-content-details-box{padding:1em;}.services-content-details-box-description{//padding:3em 0;}.services-content-details-box-description-p{padding:.5em 0;}.services-content-details-box-title{padding:1em 0;}.services-content-nav-list{position:relative;top:-7em;padding:.5em;overflow:auto;}.services-content-nav-list-item{width:50%;float:left;}.services-header{padding-top:15em;}.services-header-title,.services-header-description{left:50%;width:50%;}.services-header-description{min-height:20.5em;padding-left:1em;padding-bottom:7em;}.services-header-description-wrap{max-height:13em;overflow:scroll;}.services-header-portfolio{width:50%;margin-left:.5em;}.services-header-portfolio-figure{width:50%;}.services-header-portfolio-figure:nth-child(2){position:absolute;right:0;top:25%;}}
 	/*** END MEDIA QUERIES ***/
 		
 	/*** DECORATION ***/
@@ -90,6 +71,6 @@ Written for -- www.chamcha-branding.corporomalala.com
 	/*** BETAs ***/
 		
 	/*** TO DELETE ***/
-		label:after { display: none; }
+		label:after{display:none;}
 	/*** TO DELETE ***/
 		/*===END CUSTOM===*/
