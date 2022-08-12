@@ -27,7 +27,23 @@ Written for -- www.chamchabranding.corporomalala.com
 	/*** END COLORS ***/
 		
 	/*** FONTS ***/
-		@font-face{font-family:"Alba";src:url("../../assets/fonts/alba/alba.ttf");/*src:url("../../assets/fonts/ALPHABETH.eot") format("embedded-opentype"),url("../../assets/fonts/ALPHABETH.woff2") format("woff2"),url("../../assets/fonts/ALPHABETH.woff") format("woff"),url("../../assets/fonts/ALPHABETH.ttf") format("trutype"),url("../../assets/fonts/ALPHABETH.svg") format("svg");*/}body,.is-branded{font-family:"Alba", serif;}.banner-cta,.banner-testimonial-quote-cite,.banner-testimonial-quote-title,.CM-badge,.footer-copyrights-p,.services-content-details-box-description-p,.services-header-description-p{// font-family:"New Times Romans", serif;}.banner-title,.contact-header-title,.footer-cta-word_you,.footer-quote-word,.services-header-title{font-size:3em;}.banner-subtitle,.contact-header-subtitle,.footer-cta-word_important,.footer-quote-definition,.header-title,.services-content-details-box-title{font-size:2em;}.banner-cta,.banner-testimonial-quote-title,.services-content-details-box-pricing-once,.services-content-nav-button-title{font-size:1.25em;}.banner-title span,.banner-subtitle,.contact-header-email,.contact-header-title,.footer-quote,.footer-cta-wrap,.services-content-nav-button-title{text-align:center;}.footer-quote-definition,.footer-quote-title{text-align:left;}.footer-quote-word,.banner-title,.contact-header-subtitle,.services-header-title{text-align:right;}.footer-cta-main{text-transform:uppercase;}.u-cta{text-transform:capitalize;}.footer-cta-button:hover,.footer-cta-button:active,.footer-cta-button:focus,.footer-copyrights-p a,.services-content-details-box-pricing-once:hover,.services-content-details-box-pricing-once:active,.services-content-details-box-pricing-once:focus,.is-underline{text-decoration:underline;}
+		@font-face{font-family:"Alba";src:url("../../assets/fonts/alba/alba.ttf");/*src:url("../../assets/fonts/ALPHABETH.eot") format("embedded-opentype"),url("../../assets/fonts/ALPHABETH.woff2") format("woff2"),url("../../assets/fonts/ALPHABETH.woff") format("woff"),url("../../assets/fonts/ALPHABETH.ttf") format("trutype"),url("../../assets/fonts/ALPHABETH.svg") format("svg");*/}body,.is-branded{font-family:"Alba", serif;}
+		
+		.banner-testimonial-quote-q,
+		.banner-testimonial-quote span,
+		.banner-testimonial-quote a,
+		.services-header-description-p,
+		.services-content-details-box-description-p,
+		.services-content-details-box-pricing-retainer-li,
+		.contact-header-email p,
+		.footer-copyrights-p { font-family: "Bahnschrift SemiBold", sans-serif !important; }
+		/* Rockwell */
+		
+		.banner-cta,.banner-testimonial-quote-cite,.banner-testimonial-quote-title,.CM-badge,.footer-copyrights-p,.services-content-details-box-description-p,.services-header-description-p{// font-family:"New Times Romans", serif;}.banner-title,.contact-header-title,.footer-cta-word_you,.footer-quote-word,.services-header-title{font-size:3em;}.banner-subtitle,.contact-header-subtitle,.footer-cta-word_important,.footer-quote-definition,.header-title,.services-content-details-box-title{font-size:2em;}.banner-cta,.banner-testimonial-quote-title,.services-content-details-box-pricing-once,.services-content-nav-button-title{font-size:1.25em;}.banner-title span,.banner-subtitle,.contact-header-email,.contact-header-title,.footer-quote,.footer-cta-wrap,.services-content-nav-button-title{text-align:center;}.footer-quote-definition,.footer-quote-title{text-align:left;}.footer-quote-word,.banner-title,.contact-header-subtitle,.services-header-title{text-align:right;}.footer-cta-main{text-transform:uppercase;}.u-cta{text-transform:capitalize;}
+		
+		.contact-form-button,
+		.footer-cta-button { text-transform: uppercase; }
+		.footer-cta-button:hover,.footer-cta-button:active,.footer-cta-button:focus,.footer-copyrights-p a,.services-content-details-box-pricing-once:hover,.services-content-details-box-pricing-once:active,.services-content-details-box-pricing-once:focus,.is-underline{text-decoration:underline;}
 	/*** END FONTS ***/
 		
 	/*** MEDIA ***/
