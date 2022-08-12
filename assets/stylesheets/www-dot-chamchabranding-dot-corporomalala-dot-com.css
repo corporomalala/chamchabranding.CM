@@ -67,7 +67,8 @@ Written for -- www.chamchabranding.corporomalala.com
 	/*** END COMPONENTS ***/
 		
 	/*** INTERACTIVITY ***/
-		.u-button,.u-cta,.u-link{cursor:pointer;}.services-content-details-list-item{display:none;}#rdb4service1:checked ~ .services-content-details .services-content-details-list-item:nth-child(1),#rdb4service2:checked ~ .services-content-details .services-content-details-list-item:nth-child(2),#rdb4service3:checked ~ .services-content-details .services-content-details-list-item:nth-child(3),#rdb4service4:checked ~ .services-content-details .services-content-details-list-item:nth-child(4),#rdb4service5:checked ~ .services-content-details .services-content-details-list-item:nth-child(5),.jekyllPlaceholderClassName{display:block;}.menu{left:-100%;}#chkbx4Menu:checked ~ .menu{left:0;}#rdb4service1:checked ~ .services-content-nav .services-content-nav-list-item:nth-child(1) .services-content-nav-button-title,#rdb4service2:checked ~ .services-content-nav .services-content-nav-list-item:nth-child(2) .services-content-nav-button-title,#rdb4service3:checked ~ .services-content-nav .services-content-nav-list-item:nth-child(3) .services-content-nav-button-title,#rdb4service4:checked ~ .services-content-nav .services-content-nav-list-item:nth-child(4) .services-content-nav-button-title,#rdb4service5:checked ~ .services-content-nav .services-content-nav-list-item:nth-child(5) .services-content-nav-button-title,.jekyllPlaceholderClassName{background-color:#eee;border-width:.1em;border-style:solid;border-color:#E99D14;color:#E99D14;}
+		.u-button,.u-cta,.u-link{cursor:pointer;}.services-content-details-list-item{display:none;}#rdb4service1:checked ~ .services-content-details .services-content-details-list-item:nth-child(1),#rdb4service2:checked ~ .services-content-details .services-content-details-list-item:nth-child(2),#rdb4service3:checked ~ .services-content-details .services-content-details-list-item:nth-child(3),#rdb4service4:checked ~ .services-content-details .services-content-details-list-item:nth-child(4),#rdb4service5:checked ~ .services-content-details .services-content-details-list-item:nth-child(5),.jekyllPlaceholderClassName{display:block;}.menu{left:-100%;}#chkbx4Menu:checked ~ .menu{left:0;}#rdb4service1:checked ~ .services-content-nav .services-content-nav-list-item:nth-child(1) .services-content-nav-button-title,#rdb4service2:checked ~ .services-content-nav .services-content-nav-list-item:nth-child(2) .services-content-nav-button-title,#rdb4service3:checked ~ .services-content-nav .services-content-nav-list-item:nth-child(3) .services-content-nav-button-title,#rdb4service4:checked ~ .services-content-nav .services-content-nav-list-item:nth-child(4) .services-content-nav-button-title,#rdb4service5:checked ~ .services-content-nav .services-content-nav-list-item:nth-child(5) .services-content-nav-button-title,.jekyllPlaceholderClassName,
+		.services-content-nav-button-title:hover,.services-content-nav-button-title:active,.services-content-nav-button-title:focus{background-color:#eee;border-width:.1em;border-style:solid;border-color:#E99D14;color:#E99D14;}
 	/*** END INTERACTIVITY ***/
 		
 	/*** MEDIA QUERIES ***/
@@ -83,10 +84,15 @@ Written for -- www.chamchabranding.corporomalala.com
 	/*** END ANIMATIONS ***/
 		
 	/*** BETAs ***/
-		
 	/*** BETAs ***/
 		
 	/*** TO DELETE ***/
 		label:after{display:none;}
+		.services-content-details-box-pricing-once:hover {
+			background-color: #E99D14 !important;
+			color: black;
+			text-decoration: none !important;
+			cursor: initial !important;
+		}
 	/*** TO DELETE ***/
 		/*===END CUSTOM===*/
