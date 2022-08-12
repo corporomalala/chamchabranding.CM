@@ -28,7 +28,7 @@ Written for -- www.chamchabranding.corporomalala.com
 		
 	/*** FONTS ***/
 		@font-face{font-family:"Alba";src:url("../../assets/fonts/alba/alba.ttf");/*src:url("../../assets/fonts/ALPHABETH.eot") format("embedded-opentype"),url("../../assets/fonts/ALPHABETH.woff2") format("woff2"),url("../../assets/fonts/ALPHABETH.woff") format("woff"),url("../../assets/fonts/ALPHABETH.ttf") format("trutype"),url("../../assets/fonts/ALPHABETH.svg") format("svg");*/}
-		@font-face{font-family:"Bahnschrift SemiBold";src:url("../../assets/fonts/bahnschrift/bahnschrift.ttf");
+		@font-face{font-family:"Bahnschrift SemiBold";src:url("../../assets/fonts/bahnschrift/bahnschrift.ttf");/*src:url("../../assets/fonts/ALPHABETH.eot") format("embedded-opentype"),url("../../assets/fonts/ALPHABETH.woff2") format("woff2"),url("../../assets/fonts/ALPHABETH.woff") format("woff"),url("../../assets/fonts/ALPHABETH.ttf") format("trutype"),url("../../assets/fonts/ALPHABETH.svg") format("svg");*/}
 		
 		body,.is-branded{font-family:"Alba", serif;}
 		
