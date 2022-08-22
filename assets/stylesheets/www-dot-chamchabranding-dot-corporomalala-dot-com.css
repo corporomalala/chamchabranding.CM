@@ -158,6 +158,10 @@ Written for -- https://chamchabranding.corporomalala.com
 		.membership-form input[type="radio"] {
 			width: 1.5em; height: 1.5em;
 		}
+		.js-form_message-status,
+		.js-form_membership-status {
+			color: white;
+		}
 	/*** END COMPONENTS ***/
 		
 	/*** INTERACTIVITY ***/
