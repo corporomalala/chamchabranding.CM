@@ -8,11 +8,17 @@
 	/*** END CANCEL ***/
 		
 	/*** Z-INDEXES ***/
-		.d-wrapEntry,.services-header-description:before{position:relative;z-index:10;}.header,.banner,.services-header-description:after{position:relative;z-index:20;}.services-header-description-p{position:relative;z-index:30;}.services-content-nav-button, .services-header-portfolio-figure{position:relative;z-index:40;}.services-content-details-box-title,.services-content-details-box-description-p{position:relative;z-index:50;}.menu{position:relative;z-index:60;}.CM-badge{position:relative;z-index:70;}
+		.d-wrapEntry,.services-header-description:before{position:relative;z-index:10;}
+		.header,.banner,.services-header-description:after{position:relative;z-index:20;}
+		.services-header-description-p{position:relative;z-index:30;}
+		.services-content-nav-button, .services-header-portfolio-figure{position:relative;z-index:40;}
+		.services-content-details-box-title,.services-content-details-box-description-p, .services-content-details-box{position:relative;z-index:50;}
+		.menu{position:relative;z-index:60;}
+		.CM-badge{position:relative;z-index:70;}
 	/*** END Z-INDEXES ***/
 		
 	/*** COLORS ***/
-		.instagram-wisdom-content-nav-button,.services-content-details-box-pricing-once,.services-content-details-box-pricing-retainer label,.services-content-details-box-pricing-retainer li:before,.services-content-nav-button-img,.services-header-portfolio-figure:hover,.services-header-portfolio-figure:active,.services-header-portfolio-figure:focus,.u-button,.u-cta{background-color:#E99D14;}.footer-quote-word,.header-title,.is-branded{color:#E99D14;}.services-content-details-box-pricing-retainer,.services-header-portfolio-figure{border-color:#E99D14;}body, html,.services-content-details-box-title,.services-content-details-box-description-p{background-color:#eee;}#rdb4FAQ1:checked ~ .faq-area .faq-area-list-item:nth-child(1) .faq-area-block-question,#rdb4FAQ2:checked ~ .faq-area .faq-area-list-item:nth-child(2) .faq-area-block-question,#rdb4FAQ3:checked ~ .faq-area .faq-area-list-item:nth-child(3) .faq-area-block-question,#rdb4FAQ4:checked ~ .faq-area .faq-area-list-item:nth-child(4) .faq-area-block-question,#rdb4FAQ5:checked ~ .faq-area .faq-area-list-item:nth-child(5) .faq-area-block-question,
+		.instagram-wisdom-content-nav-button,.services-content-details-box-pricing-once,.services-content-details-box-pricing-retainer label,.services-content-details-box-pricing-retainer li:before,.services-content-nav-button-img,.services-header-portfolio-figure:hover,.services-header-portfolio-figure:active,.services-header-portfolio-figure:focus,.u-button,.u-cta{background-color:#E99D14;}.footer-quote-word,.header-title,.is-branded{color:#E99D14;}.services-content-details-box-pricing-retainer,.services-header-portfolio-figure{border-color:#E99D14;}body, html,.services-content-details-box,.services-content-details-box-title,.services-content-details-box-description-p{background-color:#eee;}#rdb4FAQ1:checked ~ .faq-area .faq-area-list-item:nth-child(1) .faq-area-block-question,#rdb4FAQ2:checked ~ .faq-area .faq-area-list-item:nth-child(2) .faq-area-block-question,#rdb4FAQ3:checked ~ .faq-area .faq-area-list-item:nth-child(3) .faq-area-block-question,#rdb4FAQ4:checked ~ .faq-area .faq-area-list-item:nth-child(4) .faq-area-block-question,#rdb4FAQ5:checked ~ .faq-area .faq-area-list-item:nth-child(5) .faq-area-block-question,
 		.jekyllPlaceholderClassName,.footer-cta-wrap:hover .footer-cta-button,.footer-cta-wrap:focus .footer-cta-button,.footer-cta-button:hover,.footer-cta-button:active,.footer-cta-button:focus{background-color:#fff;}.banner-cta,.contact-header-faq-button:hover,.contact-header-faq-button:active,.contact-header-faq-button:focus,.footer-cta-main,.footer-cta-extra,.CM-badge,.CM-badge a,.faq,.services-header-description,.services-content-details-box-pricing-once:hover,.services-content-details-box-pricing-once:active,.services-content-details-box-pricing-once:focus{color:#fff;}.banner-cta,.banner-cta:before,.contact-form-fieldset,.contact-form-fieldset:before,.contact-header-faq-button:hover,.contact-header-faq-button:active,.contact-header-faq-button:focus,.faq,.footer-cta-wrap,.CM-badge,.services-header:before,.services-content-details-box-title:before,.services-content-details-box-pricing-once:hover,.services-content-details-box-pricing-once:active,.services-content-details-box-pricing-once:focus{background-color:#202020;}
 		.instagram-wisdom-content-nav-ig:hover,
 		.instagram-wisdom-content-nav-ig:active,
@@ -121,7 +127,8 @@
 			padding: 1em;
 		}
 		.faq-area-block-question:after {
-			position: absolute; top: .5em; left: .5em;
+			position: absolute; top: .5em;
+				left: 0;
 			font-size: 1.5em;
 			
 			color: white;
@@ -225,8 +232,11 @@
 		@media screen and (max-width:900px){}
 		@media screen and (max-width:50em){html, body{font-size:14px;}.services-content-nav-list{display:flex;}.services-content-details-list-item{flex:1;}.banner-testimonial-quote-q{text-align:right;}.CM-badge{padding:.5em;text-align:center;}.banner-cta{width:75%;}.banner-figure-placeholder{padding:1em;}.banner-figure-wrap{display:none;}.contact-header-email{padding:2.5em 0;}.contact-header-email p{padding:0 1em;}.footer-copyrights-p{text-align:center;}.footer-quote{padding-bottom:2em;}.footer-quote-details{padding:1.5em 0 .5em 0;}.services{padding:3em 0;}.services-content-details-box-title{padding:1em 1em 1em .5em;}.services-content-details-box-description-p{padding:0 1em 1em 1em;}.services-content-details-box-pricing{padding:0 .75em;}.services-content-nav{position:relative;left:35%;width:65%;overflow:auto;}.services-content-nav-list{width:400%;}.services-content-nav-list-item{}.services-header{//width:80vw;}.services-header-title,.services-header-description{left:35%;width:65%;}.services-header-title{padding:0 .5em .25em 0;}.services-header-description{min-height:17em;}.services-header-description-wrap{max-height:25em;overflow:scroll;}.services-header-portfolio{width:35%;}
 			.faq-area {
-					 left: 35%;
-				width: 65%;
+//				width: 65%;// left: 35%;
+				width: 75%; left: 25%;
+			}
+			.faq-area-block-question:after {
+//				left: 0;
 			}
 			.contact-header-faq-button {
 				margin: 1em;
@@ -259,6 +269,9 @@
 			.faq-area {
 					 left: 25%;
 				width: 75%;
+			}
+			.faq-area-block-question:after {
+//				left: .5em;
 			}
 			.contact-header-faq-button {
 				margin-left: 1em;
