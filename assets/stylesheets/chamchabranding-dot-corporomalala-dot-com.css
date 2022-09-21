@@ -29,6 +29,7 @@
 		.banner-testimonial-quote a,
 		.services-header-description-p,
 		.services-content-details-box-description-p,
+		.services-content-details-box-pricing-switch-span,
 		.services-content-details-box-pricing-retainer-li,
 		.contact-header-email p,
 		.footer-copyrights-p,
@@ -36,7 +37,7 @@
 		.u-textarea { font-family: "Bahnschrift SemiBold", sans-serif !important; }
 		/* Rockwell */
 		
-		.banner-cta,.banner-testimonial-quote-cite,.banner-testimonial-quote-title,.CM-badge,.footer-copyrights-p,.services-content-details-box-description-p,.services-header-description-p{// font-family:"New Times Romans", serif;}.banner-title,.contact-header-title,.footer-cta-word_you,.footer-quote-word,.services-header-title{font-size:3em;}.banner-subtitle,.contact-header-subtitle,.footer-cta-word_important,.footer-quote-definition,.header-title,.services-content-details-box-title{font-size:2em;}.banner-cta,.banner-testimonial-quote-title,.services-content-details-box-pricing-once,.services-content-nav-button-title{font-size:1.25em;}.banner-title span,.banner-subtitle,.contact-header-email,.contact-header-title,.footer-quote,.footer-cta-wrap,.services-content-nav-button-title{text-align:center;}.footer-quote-definition,.footer-quote-title{text-align:left;}.footer-quote-word,.banner-title,.contact-header-subtitle,.services-header-title{text-align:right;}.footer-cta-main{text-transform:uppercase;}.u-cta{text-transform:capitalize;}
+		.banner-cta,.banner-testimonial-quote-cite,.banner-testimonial-quote-title,.CM-badge,.footer-copyrights-p,.services-content-details-box-description-p,.services-header-description-p{// font-family:"New Times Romans", serif;}.banner-title,.contact-header-title,.footer-cta-word_you,.footer-quote-word,.services-header-title{font-size:3em;}.banner-subtitle,.contact-header-subtitle,.footer-cta-word_important,.footer-quote-definition,.header-title,.services-content-details-box-title{font-size:2em;}.banner-cta,.banner-testimonial-quote-title,.services-content-details-box-pricing-once,.services-content-nav-button-title{font-size:1.25em;}.services-content-details-box-pricing-switch-span{font-size: .75em;}.banner-title span,.banner-subtitle,.contact-header-email,.contact-header-title,.footer-quote,.footer-cta-wrap,.services-content-nav-button-title{text-align:center;}.footer-quote-definition,.footer-quote-title{text-align:left;}.footer-quote-word,.banner-title,.contact-header-subtitle,.services-header-title{text-align:right;}.services-content-details-box-pricing-switch-span{font-variant: small-caps;}.footer-cta-main{text-transform:uppercase;}.u-cta{text-transform:capitalize;}
 		
 		.contact-form-button,
 		.footer-cta-button { text-transform: uppercase; }
@@ -284,6 +285,14 @@
 	#rdb4IGsection4:checked ~ .instagram-wisdom-content .instagram-wisdom-content-list-item:nth-child(4) .instagram-wisdom-content-nav,
 	#rdb4IGsection5:checked ~ .instagram-wisdom-content .instagram-wisdom-content-list-item:nth-child(5) .instagram-wisdom-content-nav { display: block; }
 	.instagram-wisdom-content-nav { display: none; }
+	
+	.services-content-details-box-pricing-switch {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.services-content-details-box-pricing-switch-span {
+		display: block;
+	}
 	/*** BETAs ***/
 		
 	/*** TO DELETE ***/
