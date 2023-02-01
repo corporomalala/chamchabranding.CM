@@ -301,8 +301,10 @@
 		#chkbx4FAQ:checked ~ .faq { height: auto; }
 		.faq-area-block-question:after{ content: "+"}#rdb4FAQ1:checked ~ .faq-area .faq-area-list-item:nth-child(1) .faq-area-block-question:after,#rdb4FAQ2:checked ~ .faq-area .faq-area-list-item:nth-child(2) .faq-area-block-question:after,#rdb4FAQ3:checked ~ .faq-area .faq-area-list-item:nth-child(3) .faq-area-block-question:after,#rdb4FAQ4:checked ~ .faq-area .faq-area-list-item:nth-child(4) .faq-area-block-question:after,#rdb4FAQ5:checked ~ .faq-area .faq-area-list-item:nth-child(5) .faq-area-block-question:after,
 		.jekyllPlaceholderClassName { content: "-"; }
-		.contact-header-faq-alt { display: none; }
-		#chkbx4FAQ:checked ~ .contact .contact-header-faq-alt { display: block; }
+		.contact-header-faq-alt,
+		.extra-content-cta-alt { display: none; }
+		#chkbx4FAQ:checked ~ .contact .contact-header-faq-alt,
+		#chkbx4Membership:checked ~ .extra .extra-content-cta-alt { display: block; }
 		.services-content-details-list-item{display:none;}#rdb4service1:checked ~ .services-content-details .services-content-details-list-item:nth-child(1),#rdb4service2:checked ~ .services-content-details .services-content-details-list-item:nth-child(2),#rdb4service3:checked ~ .services-content-details .services-content-details-list-item:nth-child(3),#rdb4service4:checked ~ .services-content-details .services-content-details-list-item:nth-child(4),#rdb4service5:checked ~ .services-content-details .services-content-details-list-item:nth-child(5),.jekyllPlaceholderClassName{display:block;}.menu{left:-100%;}#chkbx4Menu:checked ~ .menu{left:0;}#rdb4service1:checked ~ .services-content-nav .services-content-nav-list-item:nth-child(1) .services-content-nav-button-title,#rdb4service2:checked ~ .services-content-nav .services-content-nav-list-item:nth-child(2) .services-content-nav-button-title,#rdb4service3:checked ~ .services-content-nav .services-content-nav-list-item:nth-child(3) .services-content-nav-button-title,#rdb4service4:checked ~ .services-content-nav .services-content-nav-list-item:nth-child(4) .services-content-nav-button-title,#rdb4service5:checked ~ .services-content-nav .services-content-nav-list-item:nth-child(5) .services-content-nav-button-title,.jekyllPlaceholderClassName,.services-content-nav-button-title:hover,.services-content-nav-button-title:active,.services-content-nav-button-title:focus{background-color:#eee;border-width:.1em;border-style:solid;border-color:#E99D14;color:#E99D14;}
 
 		.extra-sample-img,
