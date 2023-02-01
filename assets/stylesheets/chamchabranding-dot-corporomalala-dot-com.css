@@ -203,6 +203,16 @@
 			
 			color: white;
 		}
+
+		.instagram-wisdom-content-figure {
+			position: relative;
+		}
+		.instagram-wisdom-content-figure-caption {
+			position: absolute; top: 0; left: 0;
+			width: 100%; height: 100%;
+			padding: 3em;
+//			overflow: auto;
+		}
 		
 		.membership {
 			margin-top: 2em;
@@ -295,6 +305,11 @@
 		.banner-testimonial-quote { display: none; }
 		#rdb4testimonial1:checked ~ .banner-testimonial-quote.is-nthChild1,
 		#rdb4testimonial2:checked ~ .banner-testimonial-quote.is-nthChild2 { display: block; }
+
+		.instagram-wisdom-content-figure-caption { display: none; }
+		.instagram-wisdom-content-figure:hover .instagram-wisdom-content-figure-caption,
+		.instagram-wisdom-content-figure:active .instagram-wisdom-content-figure-caption,
+		.instagram-wisdom-content-figure:focus .instagram-wisdom-content-figure-caption { display: block; }
 		
 		.membership{height:0;overflow:hidden;}#chkbx4Membership:checked ~ .membership{height:auto;}
 		.faq,
