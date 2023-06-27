@@ -32,6 +32,7 @@
 	/*** COLORS ***/
 		.extra-content,
 		.extra-content:before,
+		.instagram-ad-box,
 		.instagram-wisdom-content-nav-button,
 		.services-content-details-box-pricing-retainer li:before,
 		.services-content-nav-button-img,
@@ -136,7 +137,31 @@
 		.u-textarea { font-family: "Bahnschrift SemiBold", sans-serif !important; }
 		/* Rockwell */
 		
-		.banner-cta,.banner-testimonial-cite,.banner-testimonial-title,.CM-badge,.footer-copyrights-p,.services-content-details-box-description-p,.services-header-description-p{// font-family:"New Times Romans", serif;}.banner-title,.contact-header-title,.footer-cta-word_you,.footer-quote-word,.services-header-title{font-size:3em;}.banner-subtitle,.contact-header-subtitle, .extra-content-title,.footer-cta-word_important,.footer-quote-definition,.header-title,.services-content-details-box-title{font-size:2em;}.faq-title,.membership-form-message{font-size:1.5em;}.banner-cta,.banner-testimonial-title,.faq-area-block-question,.services-content-details-box-pricing-once,.services-content-nav-button-title{font-size:1.25em;}.services-content-details-box-pricing-switch-span{font-size: .75em;}.banner-title span,.banner-subtitle,.contact-header-email,.contact-header-title,.footer-quote,.footer-cta-wrap,.services-content-nav-button-title{text-align:center;}.footer-quote-definition,.footer-quote-title{text-align:left;}.footer-quote-word,.banner-title,.contact-header-subtitle,.faq-area-block-question,.services-header-title{text-align:right;}.services-content-details-box-pricing-switch-span{font-variant: small-caps;}.footer-cta-main{text-transform:uppercase;}.u-cta{text-transform:capitalize;}
+		.banner-cta,.banner-testimonial-cite,.banner-testimonial-title,.CM-badge,.footer-copyrights-p,.services-content-details-box-description-p,.services-header-description-p{// font-family:"New Times Romans", serif;}
+		
+		.banner-title,
+		.contact-header-title,
+		.footer-cta-word_you,
+		.footer-quote-word,
+		.services-header-title{font-size:3em;}
+		.banner-subtitle,
+		.contact-header-subtitle,
+		.extra-content-title,
+		.footer-cta-word_important,
+		.footer-quote-definition,
+		.header-title,
+		.instagram-ad-box-title,
+		.services-content-details-box-title{font-size:2em;}
+		.faq-title,
+		.membership-form-message{font-size:1.5em;}
+		.banner-cta,
+		.banner-testimonial-title,
+		.faq-area-block-question,
+		.services-content-details-box-pricing-once,
+		.services-content-nav-button-title{font-size:1.25em;}
+		.services-content-details-box-pricing-switch-span{font-size: .75em;}
+		
+		.banner-title span,.banner-subtitle,.contact-header-email,.contact-header-title,.footer-quote,.footer-cta-wrap,.services-content-nav-button-title{text-align:center;}.footer-quote-definition,.footer-quote-title{text-align:left;}.footer-quote-word,.banner-title,.contact-header-subtitle,.faq-area-block-question,.services-header-title{text-align:right;}.services-content-details-box-pricing-switch-span{font-variant: small-caps;}.footer-cta-main{text-transform:uppercase;}.u-cta{text-transform:capitalize;}
 		
 		.contact-form-button,
 		.footer-cta-button { text-transform: uppercase; }
@@ -154,6 +179,10 @@
 		.instagram-wisdom-content-nav-ig:focus { background-image: url("../../assets/images/icon_instagram_orange.png"); background-size: 70%; }
 		
 		.footer-cta-button:after{background-image:url("../../assets/images/icon_hand_white.png");background-size:cover;}.contact-header-faq-button:hover:after,.contact-header-faq-button:active:after,.contact-header-faq-button:focus:after,.footer-cta:hover .footer-cta-button:after, .footer-cta:active .footer-cta-button:after, .footer-cta:focus .footer-cta-button:after{background-image:url("../../assets/images/icon_hand_orange.png");background-size:cover;}.contact-header-faq-button:after,.services-content-details-box-pricing-once:after{background-image:url("../../assets/images/icon_hand_black.png");background-size:cover;}.contact-header-faq-button:after,.footer-cta-button:after, .header-content a, .instagram-wisdom-content-nav-ig, .services-content-details-box-pricing-once:after{background-repeat:no-repeat;background-position:center;}
+
+		.instagram-wisdom-content-figure:hover .instagram-wisdom-content-figure-img,
+		.instagram-wisdom-content-figure:active .instagram-wisdom-content-figure-img,
+		.instagram-wisdom-content-figure:focus .instagram-wisdom-content-figure-img { filter:grayscale(75%); }
 	/*** END MEDIA ***/
 		
 	/*** UTILITIES ***/
@@ -164,9 +193,19 @@
 		
 	/*** END MIXINS ***/
 		
-	/*** COMMONS ***/
-		.d-wrapEntry,.header,.header-content,.services-content-nav-button-title{display:flex;}.d-wrapEntry{flex-direction:column;}.services-content-nav-button-title{align-items:center;}.header{align-items:flex-start;}.services-content-nav-button-title{justify-content:center;}.header-content{justify-content:flex-end;}.banner{flex:1;}
-	/*** END COMMONS ***/
+/*** COMMONS ***/
+	.d-wrapEntry,.header,.header-content,.services-content-nav-button-title{display:flex;}.d-wrapEntry{flex-direction:column;}.services-content-nav-button-title{align-items:center;}.header{align-items:flex-start;}.services-content-nav-button-title{justify-content:center;}.header-content{justify-content:flex-end;}.banner{flex:1;}
+		
+	.contact-form-button:hover,
+	.contact-form-button:active,
+	.contact-form-button:focus,
+	.instagram-ad-box:hover,
+	.instagram-ad-box:active,
+	.instagram-ad-box:focus {
+		background-color: white !important;
+		text-decoration: underline;
+	}
+/*** END COMMONS ***/
 		
 	/*** COMPONENTS ***/
 		.d-wrapEntry{//min-height:90vh;}.d-wrapEntry:after{content:"";position:absolute;bottom:2em;left:0;width:100%;height:100%;background-color:white;}.banner{width:100%;height:100%;}.banner-title{position:relative;left:10%;width:90%;padding:.5em;padding-bottom:0;}.banner-title span{display:block;}.banner-subtitle{padding:1em;padding-top:0;}.banner-cta{padding:1em;}.banner-testimonial-wrap{padding:1em;}.banner-testimonial-cite a,.banner-testimonial-cite-country,.contact-header-email{text-align:left;display: block;}.banner-testimonial-cite{display:block;text-align:right !important;}.banner-testimonial-q{display:block;padding:1em 0;}.banner-testimonial-q{display:block;}.banner-testimonial-cite a{display:block;}.contact-form-fieldset{padding:.5em 1em;}.footer{width:100%;padding:1em;}.footer-cta{}.footer-cta-wrap{padding:1em;}.footer-cta-main{padding-bottom:.5em;}.footer-quote-title,.footer-quote-word{display:block;}.footer-cta-word_important{animation:animate-word_important 2s infinite alternate;}.footer-cta-wrap:hover .footer-cta-word_important,.footer-cta-wrap:active .footer-cta-word_important,.footer-cta-wrap:focus .footer-cta-word_important{//animation-play-state:paused;}.contact-header-faq-button,.footer-cta-button,.services-content-details-box-pricing-once{position:relative;}.contact-header-faq-button:after,.footer-cta-button:after,.services-content-details-box-pricing-once:after{content:"";position:absolute;bottom:-10px;right:15px;width:20px;height:20px;}.contact-header-faq-button:hover:after,.contact-header-faq-button:active:after,.contact-header-faq-button:focus:after,.footer-cta-button:hover:after,.footer-cta-button:active:after,.footer-cta-button:focus:after,.services-content-details-box-pricing-once:hover:after,.services-content-details-box-pricing-once:active:after,.services-content-details-box-pricing-once:focus:after{display:none;}.footer-copyrights-p{padding:1em 0 0 0;}.footer-cta-extra{padding:1em 0;}.header{padding:1em;}.header-content{width:100%;}.menu{position:fixed;top:0;left:0;width:50%;height:100%;background-color:red;}.services{overflow:hidden;}.services-header{//padding:0 .5em;}.services-content-nav-button{position:relative;display:block;margin:.5em;}.services-content-nav-button-title{width:100%;height:100%;position:absolute;top:0;left:0;}.services-content-details-box-pricing{text-align:right;}.services-content-details-box-pricing-retainer{display:block;padding:.5em;border-width:.1em;border-style:solid;}.services-content-details-box-pricing-retainer ul{padding:1em 0;}.services-content-details-box-pricing-retainer li{display:block;text-align:left;}.services-content-details-box-pricing-once,.services-content-details-box-pricing-retainer label{display:inline-block;padding:.5em 1em;}.services-content-details-box-pricing-once{margin:.5em 0;}.services-content-details-box-pricing-retainer li{position:relative;padding-left:.5em;}.services-content-details-box-pricing-retainer li:before{content:"";position:absolute;top:0;bottom:0;left:0;width:.25em;height:.25em;margin:auto;}
@@ -308,6 +347,15 @@
 			color: white;
 		}
 
+		/** .instagram **/
+		.instagram-ad-box {
+			padding: 1em;
+		}
+		.instagram-ad-text,
+		.instagram-ad-text-p {
+			padding: .5em;
+		}
+
 		.instagram-wisdom-content-figure {
 			position: relative;
 		}
@@ -439,6 +487,8 @@
 		@media screen and (max-width:50em){
 			html, body{font-size:14px;}
 
+			.instagram-wisdom-content-sublist-item:nth-child(3) { display: none !important; }
+
 			.extra-sample { background-color: #E99D14; }
 			
 			.services-content-nav-list{display:flex;}
@@ -464,6 +514,11 @@
 				margin: 1em;
 			}
 			
+			/** .instagram (media <=) **/
+			.instagram-ad {
+				padding: 1em;
+			}
+
 			.instagram-wisdom-content {
 				padding: 0 .5em;
 			}
@@ -485,7 +540,17 @@
 			.membership-form-boxOf1 {
 			}
 		}
-		@media screen and (min-width:50em){html, body{font-size:16px;}.contact,.footer,.services-content{display:flex;}.contact{align-items:flex-start;}.footer{align-items:flex-end;}.contact-header,.contact-form,.footer-cta,.footer-quote,.services-content-details,.services-content-nav,.services-header-description,.services-header-portfolio{flex:1;}.CM-badge{position:absolute;top:0;right:0;width:10%;padding:1em;}.d-wrapCenter{width:80%;margin:0 auto;}.contact,.footer,.services-content{direction:rtl;}.contact-header,.contact-form,.footer-cta,.footer-quote,.services-content-nav,.services-content-details{direction:ltr;}.banner-cta{position:relative;width:40%;}.banner-cta:before{content:"";position:absolute;top:0;right:100%;width:100%;height:100%;}.banner-figure{width:50%;position:relative;left:50%;}.banner-figure-placeholder{visibility:hidden;}.banner-figure-wrap{position:absolute;top:0;left:0;width:100%;height:40em;}.banner-figure-wrap-img{position:sticky;top:0;left:0;}.banner-testimonial{position:relative;width:50%;}.banner-testimonial-wrap{position:absolute;bottom:0;padding:0 3em 3em 0;}.contact{position:relative;// top:-3em;}.contact-header-email{padding:3em 1em;}.contact-form-fieldset{position:relative;}.contact-form-fieldset:before{content:"";position:absolute;top:0;left:-100%;width:100%;height:100%;}.footer-cta{position:relative;top:6em;}.footer-cta-wrap{width:90%;margin-bottom:1em;}.footer-copyrights-wrap{position:relative;left:50%;width:50%;}.footer-copyrights-p{text-align:right;}.services{padding:1em 1em 0 1em;}.services-content-details-box{padding:1em;}.services-content-details-box-description-p{padding:.5em 0;}.services-content-details-box-title{padding:1em 0;}.services-content-nav-list{position:relative;top:-7em;padding:.5em;overflow:auto;}.services-content-nav-list-item{width:50%;float:left;}.services-header{padding-top:15em;}.services-header-title,.services-header-description{left:50%;width:50%;}.services-header-description{min-height:20.5em;padding-left:1em;padding-bottom:7em;}.services-header-description-wrap{max-height:13em;}.services-header-portfolio{width:50%;margin-left:.5em;}.services-header-portfolio-figure{width:50%;}.services-header-portfolio-figure.nthChild-special{position:absolute;right:0;top:25%;}
+		@media screen and (min-width:50em){
+			html, body{font-size:16px;}
+			
+			.contact,
+			.footer,
+			.services-content {display:flex;}
+			.contact{align-items:flex-start;}
+			.footer{align-items:flex-end;}
+			.contact-header,
+			.contact-form,
+			.footer-cta,.footer-quote,.services-content-details,.services-content-nav,.services-header-description,.services-header-portfolio{flex:1;}.CM-badge{position:absolute;top:0;right:0;width:10%;padding:1em;}.d-wrapCenter{width:80%;margin:0 auto;}.contact,.footer,.services-content{direction:rtl;}.contact-header,.contact-form,.footer-cta,.footer-quote,.services-content-nav,.services-content-details{direction:ltr;}.banner-cta{position:relative;width:40%;}.banner-cta:before{content:"";position:absolute;top:0;right:100%;width:100%;height:100%;}.banner-figure{width:50%;position:relative;left:50%;}.banner-figure-placeholder{visibility:hidden;}.banner-figure-wrap{position:absolute;top:0;left:0;width:100%;height:40em;}.banner-figure-wrap-img{position:sticky;top:0;left:0;}.banner-testimonial{position:relative;width:50%;}.banner-testimonial-wrap{position:absolute;bottom:0;padding:0 3em 3em 0;}.contact{position:relative;// top:-3em;}.contact-header-email{padding:3em 1em;}.contact-form-fieldset{position:relative;}.contact-form-fieldset:before{content:"";position:absolute;top:0;left:-100%;width:100%;height:100%;}.footer-cta{position:relative;top:6em;}.footer-cta-wrap{width:90%;margin-bottom:1em;}.footer-copyrights-wrap{position:relative;left:50%;width:50%;}.footer-copyrights-p{text-align:right;}.services{padding:1em 1em 0 1em;}.services-content-details-box{padding:1em;}.services-content-details-box-description-p{padding:.5em 0;}.services-content-details-box-title{padding:1em 0;}.services-content-nav-list{position:relative;top:-7em;padding:.5em;overflow:auto;}.services-content-nav-list-item{width:50%;float:left;}.services-header{padding-top:15em;}.services-header-title,.services-header-description{left:50%;width:50%;}.services-header-description{min-height:20.5em;padding-left:1em;padding-bottom:7em;}.services-header-description-wrap{max-height:13em;}.services-header-portfolio{width:50%;margin-left:.5em;}.services-header-portfolio-figure{width:50%;}.services-header-portfolio-figure.nthChild-special{position:absolute;right:0;top:25%;}
 		.services-header-portfolio-nav {
 			top: 0;
 			width: 50%;
@@ -518,6 +583,11 @@
 				margin-left: 1em;
 			}
 		
+			/** .instagram (media >=) **/
+			.instagram-ad { display: flex; }
+			.instagram-ad-box,
+			.instagram-ad-text { flex: 1; }
+
 			.instagram-wisdom-content-figure {
 				padding: 2em 1em;
 			}
@@ -552,12 +622,6 @@
 	/*** END ANIMATIONS ***/
 		
 	/*** BETAs ***/
-	.contact-form-button:hover,
-	.contact-form-button:active,
-	.contact-form-button:focus {
-		background-color: white !important;
-		text-decoration: underline;
-	}
 	.header-content-button:hover,
 	.header-content-button:active,
 	.header-content-button:focus {
