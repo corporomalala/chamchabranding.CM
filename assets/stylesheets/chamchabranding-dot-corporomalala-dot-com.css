@@ -537,11 +537,9 @@
 				display: block;
 				width: 100%;
 			}
-		}
 
-		@media screen and (min-width: 100em) {
-			.d-wrapCenter { width: 80%; }
 			
+			.d-wrapCenter { max-width: 90em; }
 		}
 	/*** END MEDIA QUERIES ***/
 		
