@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html class="js-html">
 	<head>
@@ -81,9 +83,8 @@
 	
 	<body>
 		<input id="chkbx4subPage" type="checkbox" name="chkbx4subPage" />
-		
-		<input id="rdb4portfolioGroup1" type="radio" name="rdb4portfolioGroups" checked />
-		<input id="rdb4portfolioGroup2" type="radio" name="rdb4portfolioGroups" />
+		{% for i in (1..2) %}
+		<input id="rdb4portfolioGroup{{ i }}" type="radio" name="rdb4portfolioGroups"{% if forloop.first %} checked{% endif %} />{% endfor %}
 
 		<main class="main">
 			<section class="mainPage">
@@ -127,14 +128,14 @@
 							<input type="radio" id="rdb4testimonial2" name="rdbs4testimonial" />
 							<h5 class="banner-testimonial-title">Testimonial:</h5>
 							
-							<blockquote class="banner-testimonial-quote is-nthChild2">
+							<blockquote class="banner-testimonial-quote is-nthChild1">
 								<q class="banner-testimonial-q">It was a pleasant surprise to see a design that answered all of a prospect's first questions. It is an entire PR kit in a single post -- very helpful, very useful.</q>
 								<cite class="banner-testimonial-cite">
 									Judith Mapanzure Tiriwepi,<br /><span> Immigration Advisor, Judith's Corner.</span> <br /><a href="https://youtube.com/@judithscorner" class="is-underline">youtube.com/@judithscorner</a><span class="banner-testimonial-cite-country">Canada</span>
 								</cite>
 							</blockquote>
 							
-							<blockquote class="banner-testimonial-quote is-nthChild1">
+							<blockquote class="banner-testimonial-quote is-nthChild2">
 								<q class="banner-testimonial-q">At first, we were hesitant because the price was so low. But after the first work (of a redesign), it was clear that the quality here was far superior. And we've remained here ever since.</q>
 								<cite class="banner-testimonial-cite">
 									Zibanai Ngulube,<br /><span> CEO, Navy Artisan Training Academy.</span> <br /><a href="https://navyartisan.co.za" class="is-underline">navyartisan.co.za</a><span class="banner-testimonial-cite-country">South Africa</span>
@@ -170,9 +171,8 @@
 								<figure class="services-header-portfolio-figure"><img src="assets/images/portfolio-3.png" class="services-header-portfolio-figure-img" /></figure>
 							</div>
 
-							<div class="services-header-portfolio-nav">
-								<label for="rdb4portfolioGroup1" class="services-header-portfolio-nav-button"></label>
-								<label for="rdb4portfolioGroup2" class="services-header-portfolio-nav-button"></label>
+							<div class="services-header-portfolio-nav">{% for i in (1..2) %}
+								<label for="rdb4portfolioGroup{{ i }}" class="services-header-portfolio-nav-button"></label>{% endfor %}
 							</div>
 							
 						<!--
@@ -374,9 +374,9 @@
 				<section class="extra"><div class="extra-wrap d-wrapCenter">
 					<div class="extra-content"><div class="extra-content-wrap">
 						<p class="extra-content-title">Every once in a while, we give our partners a present.</p>
-						<div class="extra-content-text">
+						<div class="extra-content-text">{% for i in (1..1) %}
 							<p class="extra-content-text-p">We love the opportunity to engage and delight our new prospects just as much as we adore to treat our partners.</p>
-							<p class="extra-content-text-p"> The last present was a social media design. Have a look at what adaptive design is like.</p>
+							<p class="extra-content-text-p"> The last present was a social media design. Have a look at what adaptive design is like.</p>{% endfor %}
 						</div>
 						
 						<label for="chkbx4Membership" class="footer-cta-button u-cta">Become a partner client!</label>
@@ -798,15 +798,9 @@
 
 			<section class="subPage">
 				<section class="subPage-content">
-					<div class="subPage-content-designs"><ul class="subPage-content-designs-list">
+					<div class="subPage-content-designs"><ul class="subPage-content-designs-list">{% for i in (1..4) %}
 						<li class="subPage-content-designs-list-item"><img src="assets/images/puzzle-2.jpg" class="subPage-content-designs-img" /></li>
-						<li class="subPage-content-designs-list-item"><img src="assets/images/puzzle-1.jpg" class="subPage-content-designs-img" /></li>
-						<li class="subPage-content-designs-list-item"><img src="assets/images/puzzle-2.jpg" class="subPage-content-designs-img" /></li>
-						<li class="subPage-content-designs-list-item"><img src="assets/images/puzzle-1.jpg" class="subPage-content-designs-img" /></li>
-						<li class="subPage-content-designs-list-item"><img src="assets/images/puzzle-2.jpg" class="subPage-content-designs-img" /></li>
-						<li class="subPage-content-designs-list-item"><img src="assets/images/puzzle-1.jpg" class="subPage-content-designs-img" /></li>
-						<li class="subPage-content-designs-list-item"><img src="assets/images/puzzle-2.jpg" class="subPage-content-designs-img" /></li>
-						<li class="subPage-content-designs-list-item"><img src="assets/images/puzzle-1.jpg" class="subPage-content-designs-img" /></li>
+						<li class="subPage-content-designs-list-item"><img src="assets/images/puzzle-1.jpg" class="subPage-content-designs-img" /></li>{% endfor %}
 					</ul></div>
 				</section>
 
