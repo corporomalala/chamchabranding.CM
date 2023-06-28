@@ -1,5 +1,3 @@
----
----
 <!DOCTYPE html>
 <html class="js-html">
 	<head>
@@ -83,8 +81,9 @@
 	
 	<body>
 		<input id="chkbx4subPage" type="checkbox" name="chkbx4subPage" />
-		{% for i in (1..2) %}
-		<input id="rdb4portfolioGroup{{ i }}" type="radio" name="rdb4portfolioGroups"{% if forloop.first %} checked{% endif %} />{% endfor %}
+		
+		<input id="rdb4portfolioGroup1" type="radio" name="rdb4portfolioGroups" checked />
+		<input id="rdb4portfolioGroup2" type="radio" name="rdb4portfolioGroups" />
 
 		<main class="main">
 			<section class="mainPage">
@@ -171,8 +170,9 @@
 								<figure class="services-header-portfolio-figure"><img src="assets/images/portfolio-3.png" class="services-header-portfolio-figure-img" /></figure>
 							</div>
 
-							<div class="services-header-portfolio-nav">{% for i in (1..2) %}
-								<label for="rdb4portfolioGroup{{ i }}" class="services-header-portfolio-nav-button"></label>{% endfor %}
+							<div class="services-header-portfolio-nav">
+								<label for="rdb4portfolioGroup1" class="services-header-portfolio-nav-button"></label>
+								<label for="rdb4portfolioGroup2" class="services-header-portfolio-nav-button"></label>
 							</div>
 							
 						<!--
@@ -374,9 +374,9 @@
 				<section class="extra"><div class="extra-wrap d-wrapCenter">
 					<div class="extra-content"><div class="extra-content-wrap">
 						<p class="extra-content-title">Every once in a while, we give our partners a present.</p>
-						<div class="extra-content-text">{% for i in (1..1) %}
+						<div class="extra-content-text">
 							<p class="extra-content-text-p">We love the opportunity to engage and delight our new prospects just as much as we adore to treat our partners.</p>
-							<p class="extra-content-text-p"> The last present was a social media design. Have a look at what adaptive design is like.</p>{% endfor %}
+							<p class="extra-content-text-p"> The last present was a social media design. Have a look at what adaptive design is like.</p>
 						</div>
 						
 						<label for="chkbx4Membership" class="footer-cta-button u-cta">Become a partner client!</label>
@@ -502,11 +502,11 @@
 
 					<section class="instagram-ad">
 						<div class="instagram-ad-text">
-							<p class="instagram-ad-text-p">Check this out! You can buy in bulk and get a bundle design for your instragram!</p>
+							<p class="instagram-ad-text-p">Check this out! You can buy in bulk and get a grid design for your instragram!</p>
 						</div>
 
 						<label for="chkbx4subPage" class="instagram-ad-box">
-							<h5 class="instagram-ad-box-title">Instagram Bundle Design!</h5>
+							<h5 class="instagram-ad-box-title">Instagram Grid Design!</h5>
 							<span class="instagram-ad-box-cta">Click to view some samples!</span>
 						</label>
 					</section>
@@ -798,9 +798,15 @@
 
 			<section class="subPage">
 				<section class="subPage-content">
-					<div class="subPage-content-designs"><ul class="subPage-content-designs-list">{% for i in (1..4) %}
+					<div class="subPage-content-designs"><ul class="subPage-content-designs-list">
 						<li class="subPage-content-designs-list-item"><img src="assets/images/puzzle-2.jpg" class="subPage-content-designs-img" /></li>
-						<li class="subPage-content-designs-list-item"><img src="assets/images/puzzle-1.jpg" class="subPage-content-designs-img" /></li>{% endfor %}
+						<li class="subPage-content-designs-list-item"><img src="assets/images/puzzle-1.jpg" class="subPage-content-designs-img" /></li>
+						<li class="subPage-content-designs-list-item"><img src="assets/images/puzzle-2.jpg" class="subPage-content-designs-img" /></li>
+						<li class="subPage-content-designs-list-item"><img src="assets/images/puzzle-1.jpg" class="subPage-content-designs-img" /></li>
+						<li class="subPage-content-designs-list-item"><img src="assets/images/puzzle-2.jpg" class="subPage-content-designs-img" /></li>
+						<li class="subPage-content-designs-list-item"><img src="assets/images/puzzle-1.jpg" class="subPage-content-designs-img" /></li>
+						<li class="subPage-content-designs-list-item"><img src="assets/images/puzzle-2.jpg" class="subPage-content-designs-img" /></li>
+						<li class="subPage-content-designs-list-item"><img src="assets/images/puzzle-1.jpg" class="subPage-content-designs-img" /></li>
 					</ul></div>
 				</section>
 
