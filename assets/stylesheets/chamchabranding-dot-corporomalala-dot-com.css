@@ -7,6 +7,12 @@
 #rdb4portfolioGroup2:checked ~ .main .services-header-portfolio-nav-button:nth-child(2),
 .jekyllPlaceholderClass { background-color: #E99D14; }
 
+.instagram-ad-menu-pricing-list-item { display: none; }
+#rdb4IGEpricing1:checked ~ .main .instagram-ad-menu-pricing-list-item:nth-child(1),
+#rdb4IGEpricing2:checked ~ .main .instagram-ad-menu-pricing-list-item:nth-child(2),
+#rdb4IGEpricing3:checked ~ .main .instagram-ad-menu-pricing-list-item:nth-child(3),
+.jekyllPlaceholderClass { display: block; }
+
 .services-header-portfolio-wrap { display: none; }
 #rdb4portfolioGroup1:checked ~ .main .services-header-portfolio-wrap.nthChild1, 
 #rdb4portfolioGroup2:checked ~ .main .services-header-portfolio-wrap.nthChild2, 
@@ -35,6 +41,7 @@ p a { text-decoration: underline; }
 		.extra-content,
 		.extra-content:before,
 		.instagram-ad-box,
+		.instagram-ad-menu-pricing-body-p.is-active:before,
 		.instagram-wisdom-content-nav-button,
 		.services-content-details-box-pricing-retainer li:before,
 		.services-content-nav-button-img,
@@ -80,12 +87,21 @@ p a { text-decoration: underline; }
 		.CM-badge,
 		.CM-badge a,
 		.faq,
+		.instagram-ad-menu-li:first-child .instagram-ad-box,
+		.instagram-ad-menu-pricing-body-p.is-active,
+		.instagram-ad-menu-pricing-header,
+		.instagram-ad-menu-pricing-nav-button,
 		.services-content-details-box-pricing-once,
 		.services-content-details-box-pricing-retainer label,
 		.services-header-description,
 		.services-content-details-box-pricing-once:hover,
 		.services-content-details-box-pricing-once:active,
 		.services-content-details-box-pricing-once:focus{color:white;}
+		.footer-content-cta-alt { color: white; }
+
+		.instagram-ad-menu-pricing-body-p.is-inactive:before { background-color: #AAA; }
+		.instagram-ad-menu-pricing-body-p.is-inactive { color: #AAA; }
+
 		.banner-cta,
 		.banner-cta:before,
 		.banner-testimonial-nav-button:hover,
@@ -105,18 +121,24 @@ p a { text-decoration: underline; }
 		.faq,
 		.footer-cta-wrap,
 		.CM-badge,
+		.instagram-ad-menu-li:first-child .instagram-ad-box,
+		.instagram-ad-menu-pricing-body,
+		.instagram-ad-menu-pricing-header,
+		.instagram-ad-menu-pricing-nav-button,
 		.services-content-details-box-pricing-once,
 		.services-content-details-box-pricing-retainer label,
 		.services-header:before,
 		.services-header-portfolio-nav-button,
 		.services-content-details-box-title:before,.services-content-details-box-pricing-once:hover,.services-content-details-box-pricing-once:active,.services-content-details-box-pricing-once:focus{background-color:#202020;}
 		.extra-sample-img { border-color: #202020; }
+
 		.instagram-wisdom-content-nav-ig:hover,
 		.instagram-wisdom-content-nav-ig:active,
 		.instagram-wisdom-content-nav-ig:focus { background-color: black; }#rdb4FAQ1:checked ~ .faq-area .faq-area-list-item:nth-child(1) .faq-area-block-question,#rdb4FAQ2:checked ~ .faq-area .faq-area-list-item:nth-child(2) .faq-area-block-question,#rdb4FAQ3:checked ~ .faq-area .faq-area-list-item:nth-child(3) .faq-area-block-question,#rdb4FAQ4:checked ~ .faq-area .faq-area-list-item:nth-child(4) .faq-area-block-question,#rdb4FAQ5:checked ~ .faq-area .faq-area-list-item:nth-child(5) .faq-area-block-question,
 		.jekyllPlaceholderClassName { color: black; }
-
-		.footer-content-cta-alt { color: white; }
+		.instagram-ad-box:hover,
+		.instagram-ad-box:active,
+		.instagram-ad-box:focus { color: black !important; }
 	/*** END COLORS ***/
 		
 	/*** FONTS ***/
@@ -134,6 +156,9 @@ p a { text-decoration: underline; }
 		.faq-area-block-question,
 		.footer-copyrights-p,
 		.instagram-ad-text-p,
+		.instagram-ad-menu-pricing-body-p,
+		.instagram-ad-menu-pricing-header-rate,
+		.instagram-ad-menu-pricing-nav,
 		.services-header-description-p,
 		.services-content-details-box-description-p,
 		.services-content-details-box-pricing-switch-span,
@@ -156,6 +181,8 @@ p a { text-decoration: underline; }
 		.footer-quote-definition,
 		.header-title,
 		.instagram-ad-box-title,
+		.instagram-ad-menu-pricing-header-number,
+		.instagram-ad-text-title,
 		.services-content-details-box-title{font-size:2em;}
 		.faq-title,
 		.membership-form-message{font-size:1.5em;}
@@ -168,8 +195,11 @@ p a { text-decoration: underline; }
 		
 		.banner-title span,.banner-subtitle,.contact-header-email,.contact-header-title,.footer-quote,.footer-cta-wrap,.services-content-nav-button-title{text-align:center;}.footer-quote-definition,.footer-quote-title{text-align:left;}.footer-quote-word,.banner-title,.contact-header-subtitle,.faq-area-block-question,.services-header-title{text-align:right;}.services-content-details-box-pricing-switch-span{font-variant: small-caps;}.footer-cta-main{text-transform:uppercase;}.u-cta{text-transform:capitalize;}
 		
+		.d-textBold { font-weight: bold; }
 		.contact-form-button,
-		.footer-cta-button { text-transform: uppercase; }
+		.footer-cta-button,
+		.d-textUppercase { text-transform: uppercase; }
+		.instagram-ad-menu-pricing-body-p.is-inactive { text-decoration: line-through; }
 		.contact-header-faq-button:hover,.contact-header-faq-button:active,.contact-header-faq-button:focus,.footer-cta-button:hover,.footer-cta-button:active,.footer-cta-button:focus,.footer-copyrights-p a,.services-content-details-box-pricing-once:hover,.services-content-details-box-pricing-once:active,.services-content-details-box-pricing-once:focus,.is-underline{text-decoration:underline;}
 	/*** END FONTS ***/
 		
@@ -364,11 +394,52 @@ p a { text-decoration: underline; }
 		}
 
 		/** .instagram **/
-		.instagram-ad { display: flex; }
+		.instagram-ad,
+		.instagram-ad-menu-li { display: flex; }
 		.instagram-ad-box,
+		.instagram-ad-menu,
+		.instagram-ad-sub,
  		.instagram-ad-text { flex: 1; }
 
+		.instagram-ad-menu-li {
+			padding: 1em 0;
+		}
+
+		.instagram-ad-menu-pricing-nav { display: flex; }
+		.instagram-ad-menu-pricing-nav { align-items: center; }
+		.instagram-ad-menu-pricing-nav { justify-content: flex-end; }
+		.instagram-ad-menu-pricing-body {
+			padding: 1em;
+		}
+		.instagram-ad-menu-pricing-body-p {
+			position: relative;
+			padding: .25em 0;
+			padding-left: 1.5em;
+		}
+		.instagram-ad-menu-pricing-body-p.is-active:before {
+			content: "";
+			position: absolute;
+
+			border-radius: 50%;
+			top: .25em; left: 0;
+			width: 1em; height: 1em;
+		}
+		/*
+		.instagram-ad-menu-pricing-body-p.is-inactive:before {
+			top: .25em; left: .25em;
+			width: .5em; height: .5em;
+		}
+		*/
+		.instagram-ad-menu-pricing-header {
+			padding: 1em;
+		}
+		.instagram-ad-menu-pricing-nav-button {
+			width: 1.9em; height: 1.9em;
+			margin-left: .5em;
+		}
+
 		.instagram-ad-box {
+			display: block;
 			padding: 1em;
 		}
 		.instagram-ad-text,
@@ -530,6 +601,7 @@ p a { text-decoration: underline; }
 /*** INTERACTIVITY ***/
 	.banner-testimonial-nav-button,
 	.instagram-ad-box,
+	.instagram-ad-menu-pricing-nav-button,
 	.services-header-portfolio-nav-button,
 	.subPage-content-designs-img,
 	.u-button,.u-cta,.u-link {cursor:pointer;}
@@ -539,9 +611,11 @@ p a { text-decoration: underline; }
 		#rdb4testimonial2:checked ~ .banner-testimonial-quote.is-nthChild2 { display: block; }
 
 		.instagram-wisdom-content-figure-caption { display: none; }
-		.instagram-wisdom-content-figure:hover .instagram-wisdom-content-figure-caption,
-		.instagram-wisdom-content-figure:active .instagram-wisdom-content-figure-caption,
-		.instagram-wisdom-content-figure:focus .instagram-wisdom-content-figure-caption { display: block; }
+			.instagram-wisdom-content-figure:hover .instagram-wisdom-content-figure-caption,
+			.instagram-wisdom-content-figure:active .instagram-wisdom-content-figure-caption,
+			.instagram-wisdom-content-figure:focus .instagram-wisdom-content-figure-caption { display: block; }
+		.instagram-ad-menu-pricing { display: none; }
+			#chkbx4IGEpricing:checked ~ .main .instagram-ad-menu-pricing { display: block; }
 		
 		.membership{height:0;overflow:hidden;}#chkbx4Membership:checked ~ .membership{height:auto;}
 		.faq,
@@ -715,7 +789,13 @@ p a { text-decoration: underline; }
 	/*** END MEDIA QUERIES ***/
 		
 	/*** DECORATION ***/
-		
+		/*** .d-cssCentered ***/
+		.d-cssCentered {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+		}
 	/*** END DECORATION ***/
 		
 	/*** ANIMATIONS ***/
