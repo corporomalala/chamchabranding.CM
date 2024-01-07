@@ -1,0 +1,12 @@
+/*** JEKYLL ***/{% for i in (1..2) %}
+#rdb4portfolioGroup{{ i }}:checked ~ .main .services-header-portfolio-nav-button:nth-child({{ i }}),{% endfor %}
+.jekyllPlaceholderClass { background-color: #E99D14; }
+
+.instagram-ad-menu-pricing-list-item { display: none; }{% for i in (1..3) %}
+#rdb4IGEpricing{{ i }}:checked ~ .main .instagram-ad-menu-pricing-list-item:nth-child({{ i }}),{% endfor %}
+.jekyllPlaceholderClass { display: block; }
+
+.services-header-portfolio-wrap { display: none; }{% for i in (1..2) %}
+#rdb4portfolioGroup{{ i }}:checked ~ .main .services-header-portfolio-wrap.nthChild{{ i }}, {% endfor %}
+.jekyllPlaceholderClass { display: block; }
+/*** END JEKYLL ***/

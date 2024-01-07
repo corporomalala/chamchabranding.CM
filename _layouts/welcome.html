@@ -1,0 +1,834 @@
+---
+layout: default
+---
+		<input id="chkbx4subPage" type="checkbox" name="chkbx4subPage" />
+		{% for i in (1..2) %}
+		<input id="rdb4portfolioGroup{{ i }}" type="radio" name="rdbs4portfolioGroups"{% if forloop.last %} checked{% endif %} />
+		<input id="chkbx4IGEpricing" type="checkbox" name="chkbx4IGEpricing" />{% endfor %}{% for i in (1..3) %}
+			<input id="rdb4IGEpricing{{ i }}" type="radio" name="rdbs4IGEpricing"{% if forloop.first %} checked{% endif %} />{% endfor %}
+
+		<main class="main">
+			<section class="mainPage">
+				<input id="chkbx4Membership" type="checkbox" name="chkbx4Membership" />
+
+				<div class="CM-badge">
+					"<span class="is-branded">Chamcha Branding</span>" is a company under the umbrella of <span class="is-underline">Corporo Malala</span>.
+				</div>
+
+				<input type="checkbox" id="chkbx4Menu" name="chkbx4Menu" />
+				<section class="menu">
+					MENU
+				</section>
+
+				<section class="d-wrapEntry">
+					<header class="header d-wrapCenter">
+						<h1 class="header-title"><a href="http://chamcha-branding.corporomalala.com">Chamcha Branding</a></h1>
+						
+						<div class="header-content">
+							<a href="mailto:chamchabranding@corporomalala.com" class="header-content-button u-button" title="Email us today!">Email Us!</a>
+							<!--
+							<label for="chkbx4Menu" class="header-content-menuBTN u-button">Open Menu</label>
+							-->
+						</div>
+					</header>
+
+					<section class="banner d-wrapCenter">
+						<h2 class="banner-title">We are your minions!</h2>
+						<h2 class="banner-subtitle">We are your team behind the scenes!</h2>
+						
+						<figure class="banner-figure">
+							<img src="assets/images/banner-3.png" class="banner-figure-placeholder" />
+
+							<div class="banner-figure-wrap">
+								<img src="assets/images/banner-3.png" class="banner-figure-wrap-img" />
+							</div>
+						</figure>
+						
+						<div class="banner-testimonial"><div class="banner-testimonial-wrap">
+							<input type="radio" id="rdb4testimonial1" name="rdbs4testimonial" checked />
+							<input type="radio" id="rdb4testimonial2" name="rdbs4testimonial" />
+							<h5 class="banner-testimonial-title">Testimonial:</h5>
+							
+							<blockquote class="banner-testimonial-quote is-nthChild1">
+								<q class="banner-testimonial-q">It was a pleasant surprise to see a design that answered all of a prospect's first questions. It is an entire PR kit in a single post -- very helpful, very useful.</q>
+								<cite class="banner-testimonial-cite">
+									Judith Mapanzure Tiriwepi,<br /><span> Immigration Advisor, Judith's Corner.</span> <br /><a href="https://youtube.com/@judithscorner" class="is-underline">youtube.com/@judithscorner</a><span class="banner-testimonial-cite-country">Canada</span>
+								</cite>
+							</blockquote>
+							
+							<blockquote class="banner-testimonial-quote is-nthChild2">
+								<q class="banner-testimonial-q">At first, we were hesitant because the price was so low. But after the first work (of a redesign), it was clear that the quality here was far superior. And we've remained here ever since.</q>
+								<cite class="banner-testimonial-cite">
+									Zibanai Ngulube,<br /><span> CEO, Navy Artisan Training Academy.</span> <br /><a href="https://navyartisan.co.za" class="is-underline">navyartisan.co.za</a><span class="banner-testimonial-cite-country">South Africa</span>
+								</cite>
+							</blockquote>
+
+							<div class="banner-testimonial-nav">
+								<label for="rdb4testimonial1" class="banner-testimonial-nav-button">1</label>
+								<label for="rdb4testimonial2" class="banner-testimonial-nav-button">2</label>
+							</div>
+						</div></div>
+						
+						<div class="banner-cta">
+							It's like having us on staff, but without having to worry that we will eat all the donuts in the lunch room...
+						</div>
+					</section>
+				</section>
+
+				<section class="services">
+					<header class="services-header d-wrapCenter">
+						<h3 class="services-header-title">We do DESIGN</h3>
+						
+						<div class="services-header-portfolio">
+							<div class="services-header-portfolio-wrap nthChild1">
+								<figure class="services-header-portfolio-figure"><img src="assets/images/portfolio-6.png" class="services-header-portfolio-figure-img" /></figure>
+								<figure class="services-header-portfolio-figure nthChild-special"><img src="assets/images/portfolio-9.png" class="services-header-portfolio-figure-img" /></figure>
+								<figure class="services-header-portfolio-figure"><img src="assets/images/portfolio-8.png" class="services-header-portfolio-figure-img" /></figure>
+							</div>
+							<div class="services-header-portfolio-wrap nthChild2">
+								<figure class="services-header-portfolio-figure"><img src="assets/images/portfolio-4.png" class="services-header-portfolio-figure-img" /></figure>
+								<figure class="services-header-portfolio-figure"><img src="assets/images/portfolio-5.png" class="services-header-portfolio-figure-img" /></figure>
+								<figure class="services-header-portfolio-figure nthChild-special"><img src="assets/images/portfolio-1.png" class="services-header-portfolio-figure-img" /></figure>
+								<figure class="services-header-portfolio-figure"><img src="assets/images/portfolio-3.png" class="services-header-portfolio-figure-img" /></figure>
+							</div>
+
+							<div class="services-header-portfolio-nav">{% for i in (1..2) %}
+								<label for="rdb4portfolioGroup{{ i }}" class="services-header-portfolio-nav-button"></label>{% endfor %}
+							</div>
+							
+						<!--
+						-->
+						</div>
+						
+						<div class="services-header-description"><div class="services-header-description-wrap">
+							<p class="services-header-description-p">Branding is one of the most important part of any company, big or small. In today's extremely competitive market, an effective brand can give you a considerate advantage. It's crowded out here! The CIPC reported a record of about 500 thousands new South African business registration in 2020 alone.</p>
+							<p class="services-header-description-p">Unfortunately, not everyone needs a designer on staff full time [or can afford one at this time]. But if you need design work a few times a month, it's worth having someone on stand by __ which is us!</p>
+							<p class="services-header-description-p">As your Johannesburg branding agency partner, we are here to assist all of your company's demands. We take pleasure in providing and supporting fully integrated, tried-and-true digital marketing solutions.</p>
+							<!--
+							<p class="services-header-description-p">In this day and age of information overload, customers are ____. We are not your graphic design agency that just uses templates and replaces them.</p>
+							<p class="services-header-description-p">Even better, joining our membership, you get access to a professional designer without the overhead cost of an employee.</p>
+							-->
+						</div></div>
+					</header>
+					
+					<section class="services-content d-wrapCenter">
+						<input type="radio" id="rdb4service1" name="rdb4services" checked />
+						<input type="radio" id="rdb4service2" name="rdb4services" />
+						<input type="radio" id="rdb4service3" name="rdb4services" />
+						<input type="radio" id="rdb4service4" name="rdb4services" />
+						<input type="radio" id="rdb4service5" name="rdb4services" />
+							
+						<nav class="services-content-nav"><ul class="services-content-nav-list">
+							<li class="services-content-nav-list-item"><label for="rdb4service1" class="services-content-nav-button u-link">
+								<h5 class="services-content-nav-button-title">Social Media Posts</h5>
+								<img src="assets/images/placeholder-3x2.png" class="services-content-nav-button-img" />
+							</li>
+							<li class="services-content-nav-list-item"><label for="rdb4service2" class="services-content-nav-button u-link">
+								<h5 class="services-content-nav-button-title">Social Ads Videos</h5>
+								<img src="assets/images/placeholder-3x2.png" class="services-content-nav-button-img" />
+							</li>
+							<li class="services-content-nav-list-item"><label for="rdb4service3" class="services-content-nav-button u-link">
+								<h5 class="services-content-nav-button-title">Flyer Design</h5>
+								<img src="assets/images/placeholder-3x2.png" class="services-content-nav-button-img" />
+							</li>
+							<li class="services-content-nav-list-item"><label for="rdb4service4" class="services-content-nav-button u-link">
+								<h5 class="services-content-nav-button-title">Postcard Design</h5>
+								<img src="assets/images/placeholder-3x2.png" class="services-content-nav-button-img" />
+							</li>
+							<li class="services-content-nav-list-item"><label for="rdb4service5" class="services-content-nav-button u-link">
+								<h5 class="services-content-nav-button-title">Trifold Brochure</h5>
+								<img src="assets/images/placeholder-3x2.png" class="services-content-nav-button-img" />
+							</li>
+						</ul></nav>
+						
+						<div class="services-content-details">		
+							<ul class="services-content-details-list">
+								<li id="rdb4service1" class="services-content-details-list-item"><div class="services-content-details-box">
+									<h5 class="services-content-details-box-title">1] Social Media Posts</h5>
+									
+									<div class="services-content-details-box-description">
+										<p class="services-content-details-box-description-p">Digital storytelling is an essential component in developing a brand's visual identity. It remains the most engaging material that a brand can use to interact with its audience. Whether you're trying to sell a product, shift the perception of your brand or deliver a message, great design will help you accomplish your goals. <br /><br />Tell a single person and the message will spread out very slowly, if not at all... brand your Instagram and show the world and make thousands know about you. Drive traffic to your business while you sit.<!--A successful brand strategy serves as a guidepost for the brand and all future communication, as well as an objective metric for assessing work and making brand choices. --><br /><br />This social media package is a pack of 6 square post designs. This size is ideal for absolutely every social platform. Whether your marketing involves daily posting or only once a week, let your Chamchas design your next posts. And bonus, at request, we can turn a post into a 5 seconds GIF video at no extra cost!</p>
+										
+										<p class="services-content-details-box-description-p">Need a quick design made today? Complete this <a href="assets/files/Chamcha Form -- editable.pdf" download>pdf form</a> and let's get started!</p>
+									</div>
+									
+									<div class="services-content-details-box-pricing">
+										<div class="services-content-details-box-pricing-switch">
+											<span class="services-content-details-box-pricing-switch-span">~20USD</span>
+											<span class="services-content-details-box-pricing-switch-span">~20EUR</span>
+										</div>
+										<label for="rdb4service1onceOff" class="services-content-details-box-pricing-once u-link">
+											<span class="services-content-details-box-pricing-once-moq">MOQ: 5</span>
+											<span class="services-content-details-box-pricing-once-single">R350 only</span>
+										</label>
+										
+										<div class="services-content-details-box-pricing-retainer">
+											<p>partners' benefits</p>
+											
+											<ul>
+												<li class="services-content-details-box-pricing-retainer-li">new custom pack design: R250</li>
+												<li class="services-content-details-box-pricing-retainer-li">editing an old post design: R25.</li>
+												<li class="services-content-details-box-pricing-retainer-li">unlimited redos</li>
+												<li class="services-content-details-box-pricing-retainer-li">unlimited backups</li>
+												<br />
+												<li class="services-content-details-box-pricing-retainer-li">no minimum order quantity</li>
+											</ul>
+											
+											<label for="rdb4service1perMonth">R100/month</label>
+										</div>
+									</div>
+									
+								</div></li>
+								<li id="rdb4service2" class="services-content-details-list-item"><div class="services-content-details-box">
+									<h5 class="services-content-details-box-title">2] Social Ads Videos</h5>
+									
+									<div class="services-content-details-box-description">
+										<p class="services-content-details-box-description-p">Every brand needs a video marketing strategy -- this idea isn't new. What has changed is how important video has become on every platform and channel. But between strategy, equipment, and editing software, video marketing is still pretty complicated. <br /><br />Here, your chamchas will research, analyze and shape your video strategy. Then craft your custom, unique corporate design. This video package is a 30 seconds video, beautiful and concise. Perfect to go viral on social media.</p>
+
+										<p class="services-content-details-box-description-p">Need a quick design made today? Complete this <a href="assets/files/Chamcha Form -- editable.pdf" download>pdf form</a> and let's get started!</p>
+									</div>
+									
+									<div class="services-content-details-box-pricing">
+										<div class="services-content-details-box-pricing-switch">
+											<span class="services-content-details-box-pricing-switch-span">~17USD</span>
+											<span class="services-content-details-box-pricing-switch-span">~17EUR</span>
+										</div>
+										<label for="rdb4service2onceOff" class="services-content-details-box-pricing-once u-link">
+											<span class="services-content-details-box-pricing-once-moq">MOQ: 5</span>
+											<span class="services-content-details-box-pricing-once-single">R300 only</span>
+										</label>
+										
+										<div class="services-content-details-box-pricing-retainer">
+											<p>partners' benefits</p>
+											
+											<ul>
+												<li class="services-content-details-box-pricing-retainer-li">new custom design: R200</li>
+												<li class="services-content-details-box-pricing-retainer-li">editing an old design: R75</li>
+												<li class="services-content-details-box-pricing-retainer-li">unlimited redos</li>
+												<li class="services-content-details-box-pricing-retainer-li">unlimited backups</li>
+												<br />
+												<li class="services-content-details-box-pricing-retainer-li">no minimum order quantity</li>
+											</ul>
+											
+											<label for="rdb4service2perMonth">R100/month</label>
+										</div>
+									</div>
+
+								</div></li>
+								<li id="rdb4service3" class="services-content-details-list-item"><div class="services-content-details-box">
+									<h5 class="services-content-details-box-title">3] Flyer Design</h5>
+									
+									<div class="services-content-details-box-description">
+										<p class="services-content-details-box-description-p">We design flyers and other promotional ephemera for big and small brands. Whether you want to promote an event, increase sales or market your product or service to a new audience, flyer design can be a cost-effictive way to reach your target market. <br /><br />Set you and your brand apart. Separate name from the noise. <br /><br />You supply the text and image content and your chamchas will creatively artwork your flyer.</p>
+										
+										<p class="services-content-details-box-description-p">Need a quick design made today? Complete this <a href="assets/files/Chamcha Form -- editable.pdf" download>pdf form</a> and let's get started!</p>
+									</div>
+									
+									<div class="services-content-details-box-pricing">
+										<div class="services-content-details-box-pricing-switch">
+											<span class="services-content-details-box-pricing-switch-span">~15USD</span>
+											<span class="services-content-details-box-pricing-switch-span">~15EUR</span>
+										</div>
+										<label for="rdb4service3onceOff" class="services-content-details-box-pricing-once u-link">
+											<span class="services-content-details-box-pricing-once-moq">MOQ: 5</span>
+											<span class="services-content-details-box-pricing-once-single">R250 only</span>
+										</label>
+										
+										<div class="services-content-details-box-pricing-retainer">
+											<p>partners' benefits</p>
+											
+											<ul>
+												<li class="services-content-details-box-pricing-retainer-li">new custom design: R150</li>
+												<li class="services-content-details-box-pricing-retainer-li">editing an old design: R50</li>
+												<li class="services-content-details-box-pricing-retainer-li">unlimited redos</li>
+												<li class="services-content-details-box-pricing-retainer-li">unlimited backups</li>
+												<br />
+												<li class="services-content-details-box-pricing-retainer-li">no minimum order quantity</li>
+											</ul>
+											
+											<label for="rdb4service3perMonth">R100/month</label>
+										</div>
+									</div>
+									
+								</div></li>
+								<li id="rdb4service4" class="services-content-details-list-item"><div class="services-content-details-box">
+									<h5 class="services-content-details-box-title">4] Postcard Design</h5>
+									
+									<div class="services-content-details-box-description">
+										<p class="services-content-details-box-description-p">Those who have never used direct mail for marketing often assume it is only for sending coupons and announcements. <br /><br /> People get hundreds of emails full of ads<!-- boasting companies and their services. Because of the influx-->. These emails are often ignored or sent straight to the spam folder. In the age of digital, postcard marketing adds a personal touch. Your prospects will feel special receiving a warm handwritten note from you. <br /><br />And, in case you didn't know, postcards are cheaper to mail than letters. Get your chamchas to design a heartwarming postcard for your business once and save money in the long run. Postcard marketing gives the benefits of a large number of targeted prospects (like cold calling), but with the added warmth of personal bond (like networking).</p>
+										
+										<p class="services-content-details-box-description-p">Need a quick design made today? Complete this <a href="assets/files/Chamcha Form -- editable.pdf" download>pdf form</a> and let's get started!</p>
+									</div>
+									
+									<div class="services-content-details-box-pricing">
+										<div class="services-content-details-box-pricing-switch">
+											<span class="services-content-details-box-pricing-switch-span">~15USD</span>
+											<span class="services-content-details-box-pricing-switch-span">~15EUR</span>
+										</div>
+										<label for="rdb4service4onceOff" class="services-content-details-box-pricing-once u-link">
+											<span class="services-content-details-box-pricing-once-moq">MOQ: 5</span>
+											<span class="services-content-details-box-pricing-once-single">R250 only</span>
+										</label>
+										
+										<div class="services-content-details-box-pricing-retainer">
+											<p>partners' benefits</p>
+											
+											<ul>
+												<li class="services-content-details-box-pricing-retainer-li">new custom design: R150</li>
+												<li class="services-content-details-box-pricing-retainer-li">editing an old design: R50</li>
+												<li class="services-content-details-box-pricing-retainer-li">unlimited redos</li>
+												<li class="services-content-details-box-pricing-retainer-li">unlimited backups</li>
+												<br />
+												<li class="services-content-details-box-pricing-retainer-li">no minimum order quantity</li>
+											</ul>
+											
+											<label for="rdb4service4perMonth">R100/month</label>
+										</div>
+									</div>
+									
+								</div></li>
+								<li id="rdb4service3" class="services-content-details-list-item"><div class="services-content-details-box">
+									<h5 class="services-content-details-box-title">3] Trifold Brochure</h5>
+									
+									<div class="services-content-details-box-description">
+										<p class="services-content-details-box-description-p">We see leaflets as mini brochures. While a flyer cannot hold a lot of information, a leaflet can take on a little more. In this day and age of information overload, we've always been drawn to better ways to simplify the delivery of complex information. <br /><br />And these trifold brochures are perfect! They should be used as support materials for the rest of your sales collateral. <br /><br />You imagine it. And we, your chamchas... purposely pour over every detail, consider every factor, carefully constructing each panel of your brochure. We are inspired by your style to plan the exact formula for you.</p>
+										
+										<p class="services-content-details-box-description-p">Need a quick design made today? Complete this <a href="assets/files/Chamcha Form -- editable.pdf" download>pdf form</a> and let's get started!</p>
+									</div>
+									
+									<div class="services-content-details-box-pricing">
+										<div class="services-content-details-box-pricing-switch">
+											<span class="services-content-details-box-pricing-switch-span">~20USD</span>
+											<span class="services-content-details-box-pricing-switch-span">~20EUR</span>
+										</div>
+										<label for="rdb4service3onceOff" class="services-content-details-box-pricing-once u-link">
+											<span class="services-content-details-box-pricing-once-moq">MOQ: 5</span>
+											<span class="services-content-details-box-pricing-once-single">R350 only</span>
+										</label>
+										
+										<div class="services-content-details-box-pricing-retainer">
+											<p>partners' benefits</p>
+											
+											<ul>
+												<li class="services-content-details-box-pricing-retainer-li">new custom design: R250</li>
+												<li class="services-content-details-box-pricing-retainer-li">editing an old design: R100</li>
+												<li class="services-content-details-box-pricing-retainer-li">unlimited redos</li>
+												<li class="services-content-details-box-pricing-retainer-li">unlimited backups</li>
+												<br />
+												<li class="services-content-details-box-pricing-retainer-li">no minimum order quantity</li>
+											</ul>
+											
+											<label for="rdb4service1perMonth">R100/month</label>
+										</div>
+									</div>
+									
+								</div></li>
+							</ul>
+						</div>
+					</section>
+				</section>
+
+				<section class="extra"><div class="extra-wrap d-wrapCenter">
+					<div class="extra-content"><div class="extra-content-wrap">
+						<p class="extra-content-title">Every once in a while, we give our partners a present.</p>
+						<div class="extra-content-text">{% for i in (1..1) %}
+							<p class="extra-content-text-p">We love the opportunity to engage and delight our new prospects just as much as we adore to treat our partners.</p>
+							<p class="extra-content-text-p"> The last present was a social media design. Have a look at what adaptive design is like.</p>{% endfor %}
+						</div>
+						
+						<label for="chkbx4Membership" class="footer-cta-button u-cta">Become a partner client!</label>
+						<div class="extra-content-cta-alt">Application form opened. <br />Scroll down.</div>
+					</div></div>
+
+					<div class="extra-sample"><ul class="extra-sample-list">
+						<li class="extra-sample-list-item">
+							<img src="assets/images/extra-1.png" class="extra-sample-img" />
+						</li>
+						<li class="extra-sample-list-item">
+							<img src="assets/images/extra-2.png" class="extra-sample-img" />
+							<img src="assets/images/extra-3.png" class="extra-sample-img" />
+						</li>
+						<!--
+						<li class="extra-sample-list-item">
+							<img src="assets/images/extra-4.png" class="extra-sample-img" />
+							<img src="assets/images/extra-5.png" class="extra-sample-img" />
+						</li>
+					-->
+					</ul></div>
+				</div></section>
+
+				<input id="chkbx4FAQ" type="checkbox" name="chkbx4FAQ" />
+				<section class="contact d-wrapCenter">
+					<div class="contact-header">
+						<h3 class="contact-header-title">Are you conviced?</h3>
+						<h3 class="contact-header-subtitle">Ready to have a professional business branding?</h3>
+						
+						<div class="contact-header-email">
+							<p>We'd be happy to grow your business by using our strategic marketing expertise. What are your goals and visions for your business?</p>
+							<br />
+							<span>Email us at:</span>
+							<br />
+							<a href="mailto:chamchabranding@corporomalala.com" class="contact-header-email-info is-underline">chamchabranding@corporomalala.com</a>
+						</div>
+						
+						<label for="chkbx4FAQ" class="contact-header-faq-button u-cta">Frequently Asked Questions</label>
+						<span class="contact-header-faq-alt">FAQ opened. <br />Scroll down.</span>
+					</div>
+					
+					<form action="https://formspree.io/f/myyvzzwd" class="contact-form js-form_message" method="post">
+						<fieldset class="contact-form-fieldset">
+							<h5 class="contact-form-fieldset-title">Say hello! Tell us anything and everything!<br />May the work begin!</h5>
+							<p class="js-form_message-status">&nbsp;</p>
+							
+							<input type="text" class="u-input" name="name" placeholder="Your full name" />
+							<input type="email" class="u-input" name="email" placeholder="Your email" />
+							
+							<textarea class="u-textarea" name="message" placeholder="Your message"></textarea>
+							
+							<input type="submit" class="contact-form-button u-submit" value="Send Message" />
+						</fieldset>
+					</form>
+				</section>
+				
+				<section class="faq"><div class="faq-wrap d-wrapCenter">
+					<input id="rdb4FAQ1" type="radio" name="rdb4FAQ" class="faq-input" checked />
+				
+					<input id="rdb4FAQ2" type="radio" name="rdb4FAQ" class="faq-input" />
+				
+					<input id="rdb4FAQ3" type="radio" name="rdb4FAQ" class="faq-input" />
+				
+					<input id="rdb4FAQ4" type="radio" name="rdb4FAQ" class="faq-input" />
+				
+					<input id="rdb4FAQ5" type="radio" name="rdb4FAQ" class="faq-input" />
+				
+					<p class="faq-title">Frequently Asked Questions</p>
+					
+					<div class="faq-area"><ul class="faq-area-list">
+						<li class="faq-area-list-item"><div class="faq-area-block">
+							<label for="rdb4FAQ1" class="faq-area-block-question u-link">How many designs can I request?</label>
+							<div class="faq-area-block-answer">
+								<p class="faq-area-block-answer-p">Design requests are unlimited, but will be worked on and delivered one at a time. The same applies for design editing. Completly redoing a design, however, is only unlimited for partners. The design of a "once-off" payment can only be redone up to 3 times.</p>
+							</div>
+						</div></li>
+						
+						<li class="faq-area-list-item"><div class="faq-area-block">
+							<label for="rdb4FAQ2" class="faq-area-block-question u-link">How long do design requests take?</label>
+							<div class="faq-area-block-answer">
+								<p class="faq-area-block-answer-p">Typically you will receive the designs within 2-3 days, depending on the type of project request. As soon as your design request is submitted, we will be in touch with timings, so you will know exactly when you can expect to see something.</p>
+							</div>
+						</div></li>
+						
+						<li class="faq-area-list-item"><div class="faq-area-block">
+							<label for="rdb4FAQ3" class="faq-area-block-question u-link">Are there additional costs?</label>
+							<div class="faq-area-block-answer">
+								<p class="faq-area-block-answer-p">There will never be any surprise hidden costs. Everything from fonts to placeholder images will be free and included in your package. If a project requires specific additions, for example, stock photography, then there would be additional costs, but this would be discussed with you first, and only once we have your consent will I proceed.</p>
+							</div>
+						</div></li>
+					</ul></div>
+				</div></section>
+				
+				<section class="instagram d-wrapCenter">
+					<section class="instagram-wisdom">
+						<input id="rdb4IGsection1" type="radio" name="wisdom"  checked />
+						<div class="instagram-wisdom-content"><ul class="instagram-wisdom-content-list">
+							<li class="instagram-wisdom-content-list-item">
+								<ul class="instagram-wisdom-content-sublist">
+									<li class="instagram-wisdom-content-sublist-item"><figure class="instagram-wisdom-content-figure">
+										<img src="assets/images/instagram-1.png" class="instagram-wisdom-content-figure-img" />
+										<figcaption class="instagram-wisdom-content-figure-caption">"Success always takes help. Failure is done alone." -- Simon Sinek</figcaption>
+									</figure></li>
+									<li class="instagram-wisdom-content-sublist-item"><figure class="instagram-wisdom-content-figure">
+										<img src="assets/images/instagram-2.png" class="instagram-wisdom-content-figure-img" />
+										<figcaption class="instagram-wisdom-content-figure-caption">"Stopping advertising to save money is like stopping your watch to save time." -- Henry Ford</figcaption>
+									</figure></li>
+									<li class="instagram-wisdom-content-sublist-item"><figure class="instagram-wisdom-content-figure">
+										<img src="assets/images/instagram-3.png" class="instagram-wisdom-content-figure-img" />
+										<figcaption class="instagram-wisdom-content-figure-caption">"Do what you do so well that they will want to see it again and bring their friends." -- Walt Disney</figcaption>
+									</figure></li>
+								</ul>
+								
+								<nav class="instagram-wisdom-content-nav">
+									<a href="https://instagram.com/ChamchaBrandingACM" class="instagram-wisdom-content-nav-ig u-button" title="Visit our Instagram!">IG</a>
+								</nav>
+							</li>
+						</ul></div>
+						
+						<img src="assets/images/placeholder-2x1.png" class="instagram-wisdom-placeholder nthChild-mobile" />
+						<img src="assets/images/placeholder-3x1.png" class="instagram-wisdom-placeholder nthChild-laptop" />
+					</section>
+
+					<section class="instagram-ad">
+						<div class="instagram-ad-text">
+							<h5><span class="d-textUppercase">New Service: </span><span class="instagram-ad-text-title">"Instagram Empire"</span></h5>
+
+							<p class="instagram-ad-text-p">Captivate you audience, dominate your industry, conquer Instagram. The Chamchas are well-versed in the platform's intricacies, algorithms, and trends, allowing us to devise successful strategies.</p>
+							<p class="instagram-ad-text-p"><span class="d-textBold">Tailor-Made Solutions for Your Success:</span>
+								We understand that every business has its own story to tell. We work closely with you, from the inside, to understand your brand identity, values, and objectives. From there, we craft comprehensive marketing campaigns that leverage Instagram's visual appeal, engaging content formats, and strategic advertising opportunities, ensuring your brand stands out amidst the noise.</p>
+							<p class="instagram-ad-text-p"><span class="d-textBold">Strategic Content Creation:</span>
+								Our team of content creators excels in crafting visually stunning, compelling, and on-brand content that captures attention and drives action. From eye-catching images and videos to captivating captions and stories, we leave no stone unturned in curating a captivating presence for your brand on Instagram. With our expertise, your content will be optimized for maximum engagement, boosting your visibility and amplifying your brand message.</p>
+							<p class="instagram-ad-text-p"><span class="d-textBold">Stay Ahead of the Curve:</span>
+								Instagram's ever-evolving landscape requires staying ahead of the competition and being attuned to the latest trends. As your trusted partner, we stay up-to-date with the platform's updates, algorithm changes, and emerging features, ensuring that your brand is always at the forefront of innovation and best practices. With the Chamchas by your side, you'll be equipped with the knowledge and strategies to maintain your dominance in the social media realm.</p>
+							<p class="instagram-ad-text-p">And remember, for the partners, we revise until ready! Your chamcha will keep making revisions to a design until you're satisfied. <span class="d-textBold">"Instagram Empire" is subscription that grows with you at half the cost of hiring full-time.</span></p>
+						</div>
+
+						<div class="instagram-ad-menu">
+							<div class="instagram-ad-menu-li">
+								<p class="instagram-ad-sub">Rather stay in control of the strategy? You can buy design in bulk. Get an Instagram Grid Design instead!</p>
+								<label for="chkbx4subPage" class="instagram-ad-box">
+									<h5 class="instagram-ad-box-title">IG Grid Design!</h5>
+									<span class="instagram-ad-box-cta">Click to view some samples!</span>
+								</label>
+							</div>
+
+							<div class="instagram-ad-menu-li">
+								<label for="chkbx4IGEpricing" class="instagram-ad-box">
+									<h5 class="instagram-ad-box-title">Instagram Empire!</h5>
+									<span class="instagram-ad-box-cta">Click to view the pricing!</span>
+								</label>
+							</div>
+
+							<div class="instagram-ad-menu-pricing"><ul>{% for i in (1..3) %}
+								<li class="instagram-ad-menu-pricing-list-item">
+									<div class="instagram-ad-menu-pricing-header">
+										<h5 class="instagram-ad-menu-pricing-header-title">{% if forloop.index == 1 %}Community{% elsif forloop.index == 2 %}Momentum{% elsif forloop.index == 3 %}Empire{% endif %}</h5>
+										<span class="instagram-ad-menu-pricing-header-number">R{% if forloop.index == 1 %}650{% elsif forloop.index == 2 %}750{% elsif forloop.index == 3 %}1000{% endif %}/week</span>
+										<br />
+										<!--
+										<span class="instagram-ad-menu-pricing-header-rate">(~53USD, ~53EUR)</span>
+										-->
+									</div>
+									
+									<div class="instagram-ad-menu-pricing-nav">
+										<span class="instagram-ad-menu-pricing-nav-title">Package {{ i }}/{{ forloop.length }}</span>
+										<label for="rdb4IGEpricing{% if forloop.first %}3{% else %}{{ i | minus: 1 }}{% endif %}" class="instagram-ad-menu-pricing-nav-button d-cssCentered">&larr;</label>
+										<label for="rdb4IGEpricing{% if forloop.last %}1{% else %}{{ i | plus: 1 }}{% endif %}" class="instagram-ad-menu-pricing-nav-button d-cssCentered">&rarr;</label>
+									</div>
+
+									<div class="instagram-ad-menu-pricing-body">
+										<p class="instagram-ad-menu-pricing-body-p is-active">Account Setup and Optimization</p>
+										<p class="instagram-ad-menu-pricing-body-p is-active">Content Creation</p>
+										<p class="instagram-ad-menu-pricing-body-p is-active">Content Calendar Planning</p>
+										<p class="instagram-ad-menu-pricing-body-p is-active">2-3 posts per week</p>
+										<p class="instagram-ad-menu-pricing-body-p is-{% if forloop.index == 1 %}inactive{% elsif forloop.index == 2 %}active{% else if forloop.index == 3 %}active{% endif %}">1-2 stories per week</p>
+										<p class="instagram-ad-menu-pricing-body-p is-active">Daily Engagement (Customer Service: inbox, comments, etc)</p>
+										<p class="instagram-ad-menu-pricing-body-p is-{% if forloop.index == 1 %}inactive{% elsif forloop.index == 2 %}active{% else if forloop.index == 3 %}active{% endif %}">Daily Engagement (Customer Outreach: liking, tagging, etc)</p>
+										<p class="instagram-ad-menu-pricing-body-p is-{% if forloop.index == 1 %}inactive{% elsif forloop.index == 2 %}active{% else if forloop.index == 3 %}active{% endif %}">Paid Advertising Management</p>
+										<p class="instagram-ad-menu-pricing-body-p is-{% if forloop.index == 1 %}inactive{% elsif forloop.index == 2 %}inactive{% else if forloop.index == 3 %}active{% endif %}">Influencer Collaboration</p>
+										<p class="instagram-ad-menu-pricing-body-p is-{% if forloop.index == 1 %}inactive{% elsif forloop.index == 2 %}inactive{% else if forloop.index == 3 %}active{% endif %}">Instagram Shop Management</p>
+										<p class="instagram-ad-menu-pricing-body-p is-{% if forloop.index == 1 %}inactive{% elsif forloop.index == 2 %}inactive{% else if forloop.index == 3 %}active{% endif %}">Instagram Live Assistance</p>
+										<p class="instagram-ad-menu-pricing-body-p is-active">Monthly Performance Report</p>
+										<p class="instagram-ad-menu-pricing-body-p is-active">Reposts on 2 additional platforms of your choice</p>
+									</div>
+								</li>{% endfor %}
+							</ul></div>
+						</div>
+					</section>
+				</section>
+
+				<section class="footer d-wrapCenter">
+					<div class="footer-quote">
+						<span class="footer-quote-word">Chamcha</span>
+						
+						<p class="footer-quote-details">
+							<span class="footer-quote-pronounciation">[...]</span>
+							<span class="footer-quote-origin">Indian English</span>
+
+							<br />
+							<span class="footer-quote-title">definition:</span>
+						</p>
+						
+						<p class="footer-quote-definition">a person who tries too hard to please somebody, especially somebody who is important.</p>
+					</div>
+					
+					<div class="footer-cta"><div class="footer-cta-wrap">
+						<p class="footer-cta-main"><span class="footer-cta-word_you">YOU</span> <br /><span class="footer-cta-word_important">are important!</span></p>
+						
+						<p class="footer-cta-extra">And the world should know! Let's make it happen!</p>
+						
+						<label for="chkbx4Membership" class="footer-cta-button u-cta">Become a partner client!</label>
+						<div class="footer-content-cta-alt">Application form opened. <br />Scroll down.</div>
+					</div></div>
+				</section>
+
+				<footer class="footer-copyrights d-wrapCenter"><div class="footer-copyrights-wrap">
+					<p class="footer-copyrights-p">&copy; Copyrights 2022 <a href="https://corporomalala.com">Corporo Malala</a>. All rights reserved.</p>
+				</div></footer>
+
+				<section class="membership"><div class="d-wrapCenter">
+					<form action="https://formspree.io/f/xoqbvvdy" class="membership-form js-form_membership" method="post">
+						<p class="js-form_membership-status">&nbsp;</p>
+						
+						<p class="membership-form-message nthChild1">Want partnership right off the bat? We love that!</p>
+						<p class="membership-form-message nthChild2"><a href="mailto:chamchabranding@corporomalala.com">Send us an email with everything</a> you want us to know about you. And we'll go from there!</p>
+						<p class="membership-form-message nthChild3">If you're out of ideas, you can always use this online form!</p>
+						
+						<div class="membership-form-boxOf2">
+							<div class="membership-form-boxOf1">
+								<span class="membership-form-boxOf1-h1">1] Name *</span>
+								
+								<div class="membership-form-boxOf1-part is-size-50">
+									<input name="firstname" type="text" class="membership-form-boxOf1-part-input u-input" required />
+									<label class="membership-form-boxOf1-part-label">First Name</label>
+								</div>
+								<div class="membership-form-boxOf1-part is-size-50">
+									<input name="lastname" type="text" class="membership-form-boxOf1-part-input u-input" required />
+									<label class="membership-form-boxOf1-part-label">Last Name</label>
+								</div>
+							</div>
+							
+							<div class="membership-form-boxOf1">
+								<span class="membership-form-boxOf1-h1">2] Email *</span>
+								
+								<div class="membership-form-boxOf1-part is-size-100">
+									<input name="email" type="text" class="membership-form-boxOf1-part-input u-input" required />
+								</div>
+							</div>
+						</div>
+						<div class="membership-form-boxOf2">
+							<div class="membership-form-boxOf1">
+								<span class="membership-form-boxOf1-h1">3] Phone *</span>
+								
+								<div class="membership-form-boxOf1-part is-size-25">
+									<input name="countrycode" type="number" class="membership-form-boxOf1-part-input u-input" required />
+									<label class="membership-form-boxOf1-part-label">Country Code</label>
+								</div>
+								<div class="membership-form-boxOf1-part is-size-50">
+									<input  name="number" type="number" class="membership-form-boxOf1-part-input u-input" required />
+									<label class="membership-form-boxOf1-part-label">Number</label>
+								</div>
+							</div>
+							
+							<div class="membership-form-boxOf1">
+								<span class="membership-form-boxOf1-h1">4] Business Name *</span>
+								
+								<div class="membership-form-boxOf1-part is-size-100">
+									<input name="company" type="text" class="membership-form-boxOf1-part-input u-input" required />
+								</div>
+							</div>
+						</div>
+						<div class="membership-form-boxOf2">
+							<div class="membership-form-boxOf1">
+								<span class="membership-form-boxOf1-h1">5] Where can we find your biz online? *</span>
+								<span class="membership-form-boxOf1-h2">If you do not have a website yet, your social media page alone is fine.</span>
+								
+								<div class="membership-form-boxOf1-part is-size-100">
+									<input name="url" type="text" class="membership-form-boxOf1-part-input u-input" placeholder="Business Social Media + Website URL" required />
+								</div>
+							</div>
+							
+							<div class="membership-form-boxOf1">
+								<span class="membership-form-boxOf1-h1">6] Where is your business located?</span>
+								
+								<div class="membership-form-boxOf1-part is-size-100">
+									<input name="address" type="text" class="membership-form-boxOf1-part-input u-input" />
+								</div>
+							</div>
+						</div>
+						<div class="membership-form-boxOf2">
+							<div class="membership-form-boxOf1">
+								<span class="membership-form-boxOf1-h1">7] Is there anyone else that will be involved in the decision-making process for this project (i.e. business partner, spouse, organization, etc)? *</span>
+								<span class="membership-form-boxOf1-h2">If so, all decision-makers must join the initial discovery linkup.</span>
+								
+								<div class="membership-form-boxOf1-part is-size-50">
+									<input name="decisionmakers" id="Q7A" type="radio" class="membership-form-boxOf1-part-input u-input" required />
+									<label for="Q7A">Yes</label>
+								</div>
+								<div class="membership-form-boxOf1-part is-size-50">
+									<input name="decisionmakers" id="Q7B" type="radio" class="membership-form-boxOf1-part-input u-input" required />
+									<label for="Q7B">No</label>
+								</div>
+							</div>
+							
+							<div class="membership-form-boxOf1">
+								<span class="membership-form-boxOf1-h1">8] Is your business service based or product based? *</span>
+								<span class="membership-form-boxOf1-h2">Do you provide services or sell stuff?</span>
+								
+								<div class="membership-form-boxOf1-part is-size-50">
+									<input name="businesstype" type="radio" id="Q8A" class="membership-form-boxOf1-part-input u-input" required />
+									<label for="Q8A">Service Based</label>
+								</div>
+								<div class="membership-form-boxOf1-part is-size-50">
+									<input name="businesstype" type="radio" id="Q8B" class="membership-form-boxOf1-part-input u-input" required />
+									<label for="Q8B">Product Based</label>
+								</div>
+								<div class="membership-form-boxOf1-part is-size-50">
+									<input name="businesstype" type="radio" id="Q8C" class="membership-form-boxOf1-part-input u-input" required />
+									<label for="Q8C">We provide a little mix of both</label>
+								</div>
+							</div>
+						</div>
+						<div class="membership-form-boxOf2">
+							<div class="membership-form-boxOf1">
+								<span class="membership-form-boxOf1-h1">9] What services or products do you offer? *</span>
+								
+								<div class="membership-form-boxOf1-part is-size-100">
+									<input name="services" type="text" class="membership-form-boxOf1-part-input u-input" required />
+								</div>
+							</div>
+							
+							<div class="membership-form-boxOf1">
+								<span class="membership-form-boxOf1-h1">10] How long had you been in business? *</span>
+								
+								<div class="membership-form-boxOf1-part is-size-50">
+									<select name="years" class="membership-form-boxOf1-part-input u-input" required>	
+										<option>0-2 years</option>
+										<option>3-5 years</option>
+										<option>6+ years</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="membership-form-boxOf2">
+							<div class="membership-form-boxOf1">
+								<span class="membership-form-boxOf1-h1">11] Which of our services are you interested in? *</span>
+								
+								<div class="membership-form-boxOf1-part is-size-50">
+									<input name="chamchas" type="checkbox" id="Q11A" class="membership-form-boxOf1-part-input u-input" required />
+									<label for="Q11A">Flyers</label>
+								</div>
+								<div class="membership-form-boxOf1-part is-size-50">
+									<input name="chamchas" type="checkbox" id="Q11B" class="membership-form-boxOf1-part-input u-input" required />
+									<label for="Q11B">Postcards</label>
+								</div>
+								<div class="membership-form-boxOf1-part is-size-50">
+									<input name="chamchas" type="checkbox" id="Q11C" class="membership-form-boxOf1-part-input u-input" required />
+									<label for="Q11C">Trifold Brochure</label>
+								</div>
+								<div class="membership-form-boxOf1-part is-size-50">
+									<input name="chamchas" type="checkbox" id="Q11D" class="membership-form-boxOf1-part-input u-input" required />
+									<label for="Q11D">Social Media Posts</label>
+								</div>
+								<div class="membership-form-boxOf1-part is-size-50">
+									<input name="chamchas" type="checkbox" id="Q11E" class="membership-form-boxOf1-part-input u-input" required />
+									<label for="Q11E">Social Ads Videos</label>
+								</div>
+							<!--
+								<div class="membership-form-boxOf1-part is-size-50">
+									<input name="chamchas" type="radio" id="Q11F" class="membership-form-boxOf1-part-input u-input" required />
+									<label for="Q11F">Upfront, I'll take a few services.</label>
+								</div>
+							-->
+							</div>
+							
+							<div class="membership-form-boxOf1">
+								<span class="membership-form-boxOf1-h1">12] So, what's up? What is currently going on in your business? Where do you want to be? What goals do you want to accomplish in your business? *</span>
+								<span class="membership-form-boxOf1-h2">The more you tell us, the better we can guide you. :)</span>
+								
+								<div class="membership-form-boxOf1-part is-size-100">
+									<textarea name="companygoals" class="membership-form-boxOf1-part-input u-textarea" required></textarea>
+								</div>
+							</div>
+						</div>
+						<div class="membership-form-boxOf2">
+							<div class="membership-form-boxOf1">
+								<span class="membership-form-boxOf1-h1">13] What kind of impact do you want to make in the long run? What do you see as your legacy?</span>
+								
+								<div class="membership-form-boxOf1-part is-size-100">
+									<textarea name="impactgoal" class="membership-form-boxOf1-part-input u-textarea"></textarea>
+								</div>
+							</div>
+							
+							<div class="membership-form-boxOf1">
+								<span class="membership-form-boxOf1-h1">14] Where are you, in your brand designer search? *</span>
+								
+								<div class="membership-form-boxOf1-part is-size-100">
+									<select name="search" class="membership-form-boxOf1-part-input u-input" required>
+										<option>I definitely want my own Chamchas!</option>
+										<option>I'm kinda sure you're the one for me but I have a few questions.</option>
+										<option>I'm still just window shopping.</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="membership-form-boxOf2">
+							<div class="membership-form-boxOf1">
+								<span class="membership-form-boxOf1-h1">15] How did you hear about Chamcha Branding? *</span>
+								<span class="membership-form-boxOf1-h2">If it was a referral, we would love to know who put you on!</span>
+								
+								<div class="membership-form-boxOf1-part is-size-100">
+									<input name="referral" type="text" class="membership-form-boxOf1-part-input u-input" required />
+								</div>
+							</div>
+							
+							<div class="membership-form-boxOf1">
+								<span class="membership-form-boxOf1-h1">16] What brought you to us? Why did you choose Chamcha Branding?</span>
+								
+								<div class="membership-form-boxOf1-part is-size-100">
+									<input name="why" type="text" class="membership-form-boxOf1-part-input u-input" />
+								</div>
+							</div>
+						</div>
+						<div class="membership-form-boxOf2">
+							<div class="membership-form-boxOf1">
+								<span class="membership-form-boxOf1-h1">17] How soon are you wanting to start? *</span>
+								<span class="membership-form-boxOf1-h2">Project start date are based on availability.</span>
+								
+								<div class="membership-form-boxOf1-part is-size-50">
+									<input name="when" type="radio" id="Q17A" class="membership-form-boxOf1-part-input u-input" required />
+									<label for="Q17A">Within the next 10 days</label>
+								</div>
+								<div class="membership-form-boxOf1-part is-size-50">
+									<input name="when" type="radio" id="Q17B" class="membership-form-boxOf1-part-input u-input" required />
+									<label for="Q17B">Within the next 30 days</label>
+								</div>
+								<div class="membership-form-boxOf1-part is-size-50">
+									<input name="when" type="radio" id="Q17C" class="membership-form-boxOf1-part-input u-input" required />
+									<label for="Q17C">I'm not sure yet</label>
+								</div>
+							</div>
+							
+							<div class="membership-form-boxOf1">
+								<span class="membership-form-boxOf1-h1">18] If we mutually decide that we're a great fit for each other, are you ready to invest the time, energy + the initial minimum of 3 months partnership fee (R300) into your business? *</span>
+								<span class="membership-form-boxOf1-h2">NB: Deposits are due within 72 hours of your discovery call.</span>
+								
+								<div class="membership-form-boxOf1-part is-size-50">
+									<input name="pledge" type="radio" id="Q18A" class="membership-form-boxOf1-part-input u-input" required />
+									<label for="Q18A">Yes, I am committed to investing in my business in order to level up</label>
+								</div>
+								<div class="membership-form-boxOf1-part is-size-50">
+									<input name="pledge" type="radio" id="Q18B" class="membership-form-boxOf1-part-input u-input" required />
+									<label for="Q18B">No, even if I really wanted to work with you, I wouldn't be able to do it right now.</label>
+								</div>
+							</div>
+						</div>
+						<div class="membership-form-boxOf2">
+							<div class="membership-form-boxOf1">
+								<span class="membership-form-boxOf1-h1">Next Steps</span>
+								<span class="membership-form-boxOf1-h2">Once you submit your application, it will be reviewed within the next 48 hours. Do check your email, including spam for an email confirmation.</span>
+								<span class="membership-form-boxOf1-h2">Note: You will receive an email regardless if your application is approved or not. If we are not the best fit, we will try our best to match you with one of our creative homies.</span>
+								
+								<div class="membership-form-boxOf1-part is-size-100">
+									<input name="terms" type="checkbox" id="Q19" class="membership-form-boxOf1-part-input u-input" required />
+									<label for="Q19">Click here to acknowledge that you read all that important stuff.</label>
+								</div>
+							</div>
+						</div>
+						
+						<input type="submit" class="u-submit" value="Send Application" />
+					</form>
+				</div></section>
+			</section>
+
+			<section class="subPage">
+				<section class="subPage-content">
+					<div class="subPage-content-designs"><ul class="subPage-content-designs-list">{% for i in (1..4) %}
+						<li class="subPage-content-designs-list-item"><img src="assets/images/puzzle-2.jpg" class="subPage-content-designs-img" /></li>
+						<li class="subPage-content-designs-list-item"><img src="assets/images/puzzle-1.jpg" class="subPage-content-designs-img" /></li>{% endfor %}
+					</ul></div>
+				</section>
+
+				<aside class="subPage-aside">
+					<div class="subPage-aside-pricing">
+						<span class="subPage-aside-pricing-title">Instagram Grid Design Price:</span>
+						<span class="subPage-aside-pricing-number">R1,000 only!</span><br />
+						<a href="mailto:chamchabranding@corporomalala.com" class="subPage-aside-pricing-link">Email us today!</a>
+					</div>
+
+					<label for="chkbx4subPage" class="subPage-aside-nav">
+						<p class="subPage-aside-nav-button">Go back to main site!</p>
+					</label>
+				</aside>
+			</section>
+		</main>
+	
+	<script src="assets/scripts/chamchabranding-dot-corporomalala-dot-com.js"></script>
