@@ -22,6 +22,7 @@ p a { text-decoration: underline; }
 		.instagram-ad-box,
 		.instagram-ad-menu-pricing-body-p.is-active:before,
 		.instagram-wisdom-content-nav-button,
+		.services-content-details-box-pricing-once-moq,
 		.services-content-details-box-pricing-retainer li:before,
 		.services-content-nav-button-img,
 		.services-header-portfolio-figure:hover,
@@ -104,7 +105,7 @@ p a { text-decoration: underline; }
 		.instagram-ad-menu-pricing-body,
 		.instagram-ad-menu-pricing-header,
 		.instagram-ad-menu-pricing-nav-button,
-		.services-content-details-box-pricing-once,
+		.services-content-details-box-pricing-once-single,
 		.services-content-details-box-pricing-retainer label,
 		.services-header:before,
 		.services-header-portfolio-nav-button,
@@ -114,7 +115,8 @@ p a { text-decoration: underline; }
 		.instagram-wisdom-content-nav-ig:hover,
 		.instagram-wisdom-content-nav-ig:active,
 		.instagram-wisdom-content-nav-ig:focus { background-color: black; }#rdb4FAQ1:checked ~ .faq-area .faq-area-list-item:nth-child(1) .faq-area-block-question,#rdb4FAQ2:checked ~ .faq-area .faq-area-list-item:nth-child(2) .faq-area-block-question,#rdb4FAQ3:checked ~ .faq-area .faq-area-list-item:nth-child(3) .faq-area-block-question,#rdb4FAQ4:checked ~ .faq-area .faq-area-list-item:nth-child(4) .faq-area-block-question,#rdb4FAQ5:checked ~ .faq-area .faq-area-list-item:nth-child(5) .faq-area-block-question,
-		.jekyllPlaceholderClassName { color: black; }
+		.jekyllPlaceholderClassName,
+		.services-content-details-box-pricing-once-moq { color: black; }
 		.instagram-ad-box:hover,
 		.instagram-ad-box:active,
 		.instagram-ad-box:focus { color: black !important; }
@@ -140,6 +142,7 @@ p a { text-decoration: underline; }
 		.instagram-ad-menu-pricing-nav,
 		.services-header-description-p,
 		.services-content-details-box-description-p,
+		.services-content-details-box-pricing-once-moq,
 		.services-content-details-box-pricing-switch-span,
 		.services-content-details-box-pricing-retainer-li,
 		.u-input,
@@ -168,11 +171,13 @@ p a { text-decoration: underline; }
 		.banner-cta,
 		.banner-testimonial-title,
 		.faq-area-block-question,
-		.services-content-details-box-pricing-once,
+		.services-content-details-box-pricing-once-single,
 		.services-content-nav-button-title{font-size:1.25em;}
 		.services-content-details-box-pricing-switch-span{font-size: .75em;}
 		
-		.banner-title span,.banner-subtitle,.contact-header-email,.contact-header-title,.footer-quote,.footer-cta-wrap,.services-content-nav-button-title{text-align:center;}.footer-quote-definition,.footer-quote-title{text-align:left;}.footer-quote-word,.banner-title,.contact-header-subtitle,.faq-area-block-question,.services-header-title{text-align:right;}.services-content-details-box-pricing-switch-span{font-variant: small-caps;}.footer-cta-main{text-transform:uppercase;}.u-cta{text-transform:capitalize;}
+		.banner-title span,.banner-subtitle,.contact-header-email,.contact-header-title,.footer-quote,.footer-cta-wrap,
+		.services-content-details-box-pricing-once-moq,
+		.services-content-nav-button-title{text-align:center;}.footer-quote-definition,.footer-quote-title{text-align:left;}.footer-quote-word,.banner-title,.contact-header-subtitle,.faq-area-block-question,.services-header-title{text-align:right;}.services-content-details-box-pricing-switch-span{font-variant: small-caps;}.footer-cta-main{text-transform:uppercase;}.u-cta{text-transform:capitalize;}
 		
 		.d-textBold { font-weight: bold; }
 		.contact-form-button,
@@ -233,7 +238,19 @@ p a { text-decoration: underline; }
 /*** END COMMONS ***/
 
 	/*** COMPONENTS ***/
-		.d-wrapEntry{//min-height:90vh;}.d-wrapEntry:after{content:"";position:absolute;bottom:2em;left:0;width:100%;height:100%;background-color:white;}.banner{width:100%;height:100%;}.banner-title{position:relative;left:10%;width:90%;padding:.5em;padding-bottom:0;}.banner-title span{display:block;}.banner-subtitle{padding:1em;padding-top:0;}.banner-cta{padding:1em;}.banner-testimonial-wrap{padding:1em;}.banner-testimonial-cite a,.banner-testimonial-cite-country,.contact-header-email{text-align:left;display: block;}.banner-testimonial-cite{display:block;text-align:right !important;}.banner-testimonial-q{display:block;padding:1em 0;}.banner-testimonial-q{display:block;}.banner-testimonial-cite a{display:block;}.contact-form-fieldset{padding:.5em 1em;}.footer{width:100%;padding:1em;}.footer-cta{}.footer-cta-wrap{padding:1em;}.footer-cta-main{padding-bottom:.5em;}.footer-quote-title,.footer-quote-word{display:block;}.footer-cta-word_important{animation:animate-word_important 2s infinite alternate;}.footer-cta-wrap:hover .footer-cta-word_important,.footer-cta-wrap:active .footer-cta-word_important,.footer-cta-wrap:focus .footer-cta-word_important{//animation-play-state:paused;}.contact-header-faq-button,.footer-cta-button,.services-content-details-box-pricing-once{position:relative;}.contact-header-faq-button:after,.footer-cta-button:after,.services-content-details-box-pricing-once:after{content:"";position:absolute;bottom:-10px;right:15px;width:20px;height:20px;}.contact-header-faq-button:hover:after,.contact-header-faq-button:active:after,.contact-header-faq-button:focus:after,.footer-cta-button:hover:after,.footer-cta-button:active:after,.footer-cta-button:focus:after,.services-content-details-box-pricing-once:hover:after,.services-content-details-box-pricing-once:active:after,.services-content-details-box-pricing-once:focus:after{display:none;}.footer-copyrights-p{padding:1em 0 0 0;}.footer-cta-extra{padding:1em 0;}.header{padding:1em;}.header-content{width:100%;}.menu{position:fixed;top:0;left:0;width:50%;height:100%;background-color:red;}.services{overflow:hidden;}.services-header{//padding:0 .5em;}.services-content-nav-button{position:relative;display:block;margin:.5em;}.services-content-nav-button-title{width:100%;height:100%;position:absolute;top:0;left:0;}.services-content-details-box-pricing{text-align:right;}.services-content-details-box-pricing-retainer{display:block;padding:.5em;border-width:.1em;border-style:solid;}.services-content-details-box-pricing-retainer ul{padding:1em 0;}.services-content-details-box-pricing-retainer li{display:block;text-align:left;}.services-content-details-box-pricing-once,.services-content-details-box-pricing-retainer label{display:inline-block;padding:.5em 1em;}.services-content-details-box-pricing-once{margin:.5em 0;}.services-content-details-box-pricing-retainer li{position:relative;padding-left:.5em;}.services-content-details-box-pricing-retainer li:before{content:"";position:absolute;top:0;bottom:0;left:0;width:.25em;height:.25em;margin:auto;}
+		.d-wrapEntry{//min-height:90vh;}.d-wrapEntry:after{content:"";position:absolute;bottom:2em;left:0;width:100%;height:100%;background-color:white;}.banner{width:100%;height:100%;}.banner-title{position:relative;left:10%;width:90%;padding:.5em;padding-bottom:0;}.banner-title span{display:block;}.banner-subtitle{padding:1em;padding-top:0;}.banner-cta{padding:1em;}.banner-testimonial-wrap{padding:1em;}.banner-testimonial-cite a,.banner-testimonial-cite-country,.contact-header-email{text-align:left;display: block;}.banner-testimonial-cite{display:block;text-align:right !important;}.banner-testimonial-q{display:block;padding:1em 0;}.banner-testimonial-q{display:block;}.banner-testimonial-cite a{display:block;}.contact-form-fieldset{padding:.5em 1em;}.footer{width:100%;padding:1em;}.footer-cta{}.footer-cta-wrap{padding:1em;}.footer-cta-main{padding-bottom:.5em;}.footer-quote-title,.footer-quote-word{display:block;}.footer-cta-word_important{animation:animate-word_important 2s infinite alternate;}.footer-cta-wrap:hover .footer-cta-word_important,.footer-cta-wrap:active .footer-cta-word_important,.footer-cta-wrap:focus .footer-cta-word_important{//animation-play-state:paused;}.contact-header-faq-button,.footer-cta-button,.services-content-details-box-pricing-once{position:relative;}.contact-header-faq-button:after,.footer-cta-button:after,.services-content-details-box-pricing-once:after{content:"";position:absolute;bottom:-10px;right:15px;width:20px;height:20px;}.contact-header-faq-button:hover:after,.contact-header-faq-button:active:after,.contact-header-faq-button:focus:after,.footer-cta-button:hover:after,.footer-cta-button:active:after,.footer-cta-button:focus:after,.services-content-details-box-pricing-once:hover:after,.services-content-details-box-pricing-once:active:after,.services-content-details-box-pricing-once:focus:after{display:none;}.footer-copyrights-p{padding:1em 0 0 0;}.footer-cta-extra{padding:1em 0;}.header{padding:1em;}.header-content{width:100%;}.menu{position:fixed;top:0;left:0;width:50%;height:100%;background-color:red;}.services{overflow:hidden;}.services-header{//padding:0 .5em;}.services-content-nav-button{position:relative;display:block;margin:.5em;}.services-content-nav-button-title{width:100%;height:100%;position:absolute;top:0;left:0;}.services-content-details-box-pricing{text-align:right;}.services-content-details-box-pricing-retainer{display:block;padding:.5em;border-width:.1em;border-style:solid;}.services-content-details-box-pricing-retainer ul{padding:1em 0;}.services-content-details-box-pricing-retainer li{display:block;text-align:left;}.services-content-details-box-pricing-once,.services-content-details-box-pricing-retainer label{display:inline-block;}
+		.services-content-details-box-pricing-once-moq,
+		.services-content-details-box-pricing-once-single {
+			display: block;
+		}
+		.services-content-details-box-pricing-once-single,
+		.services-content-details-box-pricing-retainer label {
+			padding: .5em 1em;
+		}
+		.services-content-details-box-pricing-once-moq {
+			padding: .25em;
+		}
+		.services-content-details-box-pricing-once{margin:.5em 0;}.services-content-details-box-pricing-retainer li{position:relative;padding-left:.5em;}.services-content-details-box-pricing-retainer li:before{content:"";position:absolute;top:0;bottom:0;left:0;width:.25em;height:.25em;margin:auto;}
 		.services-header{position:relative;}
 		.services-header-title{position:relative;}
 		.services-header-description{position:relative;}
@@ -853,9 +870,11 @@ p a { text-decoration: underline; }
 	/*** TO DELETE ***/
 		.services-content-details-box-pricing-once:after{display:none;}
 		.services-content-details-box-pricing-once:hover {
-			background-color: #E99D14 !important;
-			color: black;
 			text-decoration: none !important;
 			cursor: initial !important;
+		}
+		.services-content-details-box-pricing-once-single:hover {
+			background-color: #E99D14 !important;
+			color: black;
 		}
 	/*** TO DELETE ***/
